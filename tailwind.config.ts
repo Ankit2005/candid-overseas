@@ -1,11 +1,14 @@
 /** @type {import('tailwindcss').Config} */
+export {};
 module.exports = {
   darkMode: ["class"],
   content: [
-    "./pages/**/*.{ts,tsx}",
-    "./components/**/*.{ts,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
+    "./node_modules/flowbite/**/*.js",
+    "./node_modules/flowbite-react/**/*.js",
   ],
   theme: {
     screens: {
@@ -58,6 +61,9 @@ module.exports = {
       backgroundImage: {
         banner: "url('/jsm_resources_banner.svg')",
         footer: "url('/assets/footer.svg')",
+
+        navGradient:
+          "linear-gradient(to right, #091242, #242854, #3b3f66, #535777, #6c7089)",
       },
 
       keyframes: {
@@ -76,5 +82,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), require("flowbite/plugin")],
 };

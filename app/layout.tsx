@@ -22,7 +22,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-white font-poppins">{children}</body>
+      <head>
+        <link
+          href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css"
+          rel="stylesheet"
+        />
+      </head>
+      <body className="min-h-screen bg-white font-poppins">
+        {children}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+      </body>
     </html>
   );
 }
