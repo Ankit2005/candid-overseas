@@ -188,7 +188,7 @@ const NavbarMain = () => {
       </div>
 
       {/* Exam sub menu */}
-      <div
+      {/* <div
         id="mega-menu-full-dropdown"
         className="mt-1 border-gray-200 shadow-sm bg-gray-50 md:bg-white border-y dark:bg-gray-800 dark:border-gray-600"
       >
@@ -264,7 +264,7 @@ const NavbarMain = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
     </nav>
   );
 };
