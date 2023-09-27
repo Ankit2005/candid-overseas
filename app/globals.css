@@ -25,6 +25,10 @@
     text-fill-color: transparent;
   }
 
+  .btn-primary {
+    background: linear-gradient(90deg, #0e149d 2.34%, #6e0c80, #ee1b23 100.78%);
+  }
+
   .heading1 {
     @apply text-[64px] leading-[67.2px] font-bold;
   }

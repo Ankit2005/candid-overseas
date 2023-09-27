@@ -2,6 +2,7 @@ import Filters from "@/components/Filters";
 import Header from "@/components/Header";
 import ResourceCard from "@/components/ResourceCard";
 import SearchForm from "@/components/SearchForm";
+import Hero from "@/components/Shared/Hero";
 import { getResources, getResourcesPlaylist } from "@/sanity/actions";
 
 export const revalidate = 900;
@@ -18,10 +19,12 @@ const Page = async ({ searchParams }: Props) => {
   });
 
   // const resourcesPlaylist = await getResourcesPlaylist();
-
+  // h-[calc(100vh - 400px)]
   return (
-    <main className="flex-center paddings mx-auto w-full h-[calc(100vh - 400px)] max-w-screen-2xl flex-col">
-      <section className="nav-padding w-full">fff</section>
+    <main className="d ">
+      <section className="nav-padding w-full">
+        <Hero />
+      </section>
     </main>
   );
 };
