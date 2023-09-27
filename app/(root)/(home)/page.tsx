@@ -1,5 +1,6 @@
 import Filters from "@/components/Filters";
 import Header from "@/components/Header";
+import StudyCard from "@/components/Home/StudyCard";
 import ResourceCard from "@/components/ResourceCard";
 import SearchForm from "@/components/SearchForm";
 import Hero from "@/components/Shared/Hero";
@@ -24,6 +25,7 @@ const Page = async ({ searchParams }: Props) => {
     <main className="d ">
       <section className="nav-padding w-full">
         <Hero />
+        <StudyCard />
       </section>
     </main>
   );
