@@ -28,17 +28,20 @@
   .btn-primary {
     background: linear-gradient(90deg, #0e149d 2.34%, #6e0c80, #ee1b23 100.78%);
   }
+  .blur {
+    filter: blur(121px) !important;
+  }
 
   .heading1 {
     @apply text-[64px] leading-[67.2px] font-bold;
   }
 
   .heading2 {
-    @apply font-bold text-[48px] leading-[50.4px];
+    @apply font-bold text-black leading-[50.4px];
   }
 
   .heading3 {
-    @apply font-bold sm:text-[32px] sm:leading-[33.6px] text-[28px] leading-[40px] tracking-[-0.25%];
+    @apply font-bold text-primary sm:text-[32px] sm:leading-[33.6px] text-[28px] leading-[40px] tracking-[-0.25%];
   }
 
   .base-regular {

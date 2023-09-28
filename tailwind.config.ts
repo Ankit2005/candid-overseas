@@ -39,7 +39,7 @@ module.exports = {
         "70": "70px", // Another custom line height
       },
       colors: {
-        primary: "#2190FF",
+        primary: "#002147",
         black: {
           DEFAULT: "#000",
           100: "#0D1117",
@@ -71,7 +71,7 @@ module.exports = {
       backgroundImage: {
         banner: "url('/jsm_resources_banner.svg')",
         footer: "url('/assets/footer.svg')",
-        // btnPrimary: "linear-gradient(to right, #0E149D 100%, #EE1B23 74%)",
+        boy: "url('/assets/boy.svg')",
 
         heroBannerOne:
           "linear-gradient(to right, rgb(3 45 95 / 92%) 0%, rgb(3 45 95 / 55%) 100%, rgba(9, 18, 66, 0.8) 100%), url(/assets/hero_sec_one_img.svg)",

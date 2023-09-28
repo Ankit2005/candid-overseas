@@ -45,13 +45,13 @@ const StudyCard = () => {
               built on WordPress. Get started quickly and make your way.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {studyCards.map((item, index) => (
               <div
                 key={`card_${index}`}
-                className="max-w-s bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+                className="e-max-w-sm bg-white  border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
               >
-                <Image width={500} height={500} src={item.img} alt="img" />
+                <Image width={700} height={500} src={item.img} alt="img" />
 
                 <div className="p-5">
                   <a href="#">
