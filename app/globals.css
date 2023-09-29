@@ -33,59 +33,59 @@
   }
 
   .heading1 {
-    @apply text-[64px] leading-[67.2px] font-bold;
+    @apply text-[64px] text-darkBlue leading-[67.2px] font-bold;
   }
 
   .heading2 {
-    @apply font-bold text-black leading-[50.4px];
+    @apply font-bold text-darkBlue leading-[50.4px];
   }
 
   .heading3 {
-    @apply font-bold text-primary sm:text-[32px] sm:leading-[33.6px] text-[28px] leading-[40px] tracking-[-0.25%];
+    @apply font-bold text-darkBlue sm:text-[32px] sm:leading-[33.6px] text-[28px] leading-[40px] tracking-[-0.25%];
   }
 
   .base-regular {
-    @apply text-[24px] font-normal leading-[31.2px];
+    @apply text-[24px] text-darkBlue font-normal leading-[31.2px];
   }
 
   .base-bold {
-    @apply text-[24px] font-semibold leading-[31.2px];
+    @apply text-[24px] text-darkBlue font-semibold leading-[31.2px];
   }
 
   .paragraph-regular {
-    @apply text-[20px] font-normal leading-[26px];
+    @apply text-[20px] text-darkBlue font-normal leading-[26px];
   }
 
   .paragraph-semibold {
-    @apply text-[20px] font-semibold leading-[26px];
+    @apply text-[20px] text-darkBlue font-semibold leading-[26px];
   }
 
   .body-regular {
-    @apply text-[16px] font-normal leading-[20.8px];
+    @apply text-[16px] text-darkBlue font-normal leading-[20.8px];
   }
 
   .body-semibold {
-    @apply text-[16px] font-semibold leading-[20.8px];
+    @apply text-[16px] text-darkBlue font-semibold leading-[20.8px];
   }
 
   .body-medium {
-    @apply text-[16px] font-medium leading-[22.4px];
+    @apply text-[20px] text-darkBlue font-medium leading-[22.4px];
   }
 
   .small-regular {
-    @apply text-[14px] font-normal leading-[17.5px];
+    @apply text-[18px] text-darkBlue font-normal leading-[24.5px];
   }
 
   .small-bold {
-    @apply text-[14px] font-semibold leading-[17.5px];
+    @apply text-[14px] text-darkBlue font-semibold leading-[17.5px];
   }
 
   .heading4 {
-    @apply font-semibold text-[20px] leading-[26px] tracking-[0.25%];
+    @apply font-semibold text-darkBlue text-[20px] leading-[26px] tracking-[0.25%];
   }
 
   .body-text {
-    @apply text-[16px] leading-[22px] font-normal;
+    @apply text-[16px] text-darkBlue leading-[22px] font-normal;
   }
 
   .nav-padding {

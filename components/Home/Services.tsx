@@ -27,24 +27,34 @@ const services: serviceDetails[] = [
 
 const Services = () => {
   return (
-    <div className="border border-darkBlue h-[900px] relative ">
+    <div className=" h-[900px] relative ">
       <BgShape />
       <div className="py-8 px-4 mx-auto max-w-screen-xl  lg:py-16 ">
         <h2 className="heading3 mb-6 font-medium ">Service</h2>
 
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
+        <div className="grid grid-cols-1 gap-2 sm:grid-cols-3">
           <div>
             {services.map((service: serviceDetails, index: number) => (
               <ServiceCard key={index} details={service} />
             ))}
           </div>
-          <div className="bg-boy bg-cover bg-no-repeat"></div>
-          <p className="mb-3 text-gray-500 dark:text-gray-400">
-            Deliver great service experiences fast - without the complexity of
-            traditional ITSM solutions.Accelerate critical development work,
-            eliminate toil, and deploy changes with ease, with a complete audit
-            trail for every change.
-          </p>
+          <div className="bg-boy bg-contain bg-no-repeat"></div>
+          <div className="mt-24">
+            <h5 className="body-medium mb-4 ">
+              Web Specialist based in Jakarta
+            </h5>
+            <p className="mb-3 small-regular text-gray-500 dark:text-gray-400">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <p className="mb-3 small-regular text-gray-500 dark:text-gray-400">
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          <div>
+            <div></div>
+          </div>
         </div>
       </div>
     </div>
