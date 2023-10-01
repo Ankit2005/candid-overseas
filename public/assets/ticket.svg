@@ -1,0 +1,16 @@
+<svg width="83" height="84" viewBox="0 0 83 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="41.3251" cy="42.0496" rx="41.3249" ry="41.325" fill="url(#paint0_linear_203_3814)"/>
+<path d="M61.2243 30.6499H22.8511C22.036 30.6499 21.3752 31.2879 21.3752 32.0749V52.0249C21.3752 52.8119 22.036 53.4499 22.8511 53.4499H61.2243C62.0394 53.4499 62.7002 52.8119 62.7002 52.0249V32.0749C62.7002 31.2879 62.0394 30.6499 61.2243 30.6499Z" stroke="#1C1F35" stroke-width="2.1375" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42.0384 47.7499C44.7929 47.7499 47.0259 45.5169 47.0259 42.7624C47.0259 40.0079 44.7929 37.7749 42.0384 37.7749C39.2839 37.7749 37.0509 40.0079 37.0509 42.7624C37.0509 45.5169 39.2839 47.7499 42.0384 47.7499Z" stroke="#1C1F35" stroke-width="2.1375" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M51.3032 30.6501L62.7032 40.6251" stroke="#1C1F35" stroke-width="2.1375" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M51.3032 53.4498L62.7032 43.4749" stroke="#1C1F35" stroke-width="2.1375" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M32.7752 30.6499L21.3752 40.6249" stroke="#1C1F35" stroke-width="2.1375" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M32.7752 53.4496L21.3752 43.4746" stroke="#1C1F35" stroke-width="2.1375" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<linearGradient id="paint0_linear_203_3814" x1="-2.34304" y1="18.6321" x2="101.631" y2="26.0158" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFB629"/>
+<stop offset="0.507189" stop-color="#FFDA56"/>
+<stop offset="1" stop-color="#FFD7A6"/>
+</linearGradient>
+</defs>
+</svg>
