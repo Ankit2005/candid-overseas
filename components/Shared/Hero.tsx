@@ -3,12 +3,11 @@ import React from "react";
 
 const flags = [
   "/assets/flags/flag_one.svg",
-  "/assets/flags/flag_one.svg",
-  "/assets/flags/flag_one.svg",
-  "/assets/flags/flag_one.svg",
-  "/assets/flags/flag_one.svg",
-  "/assets/flags/flag_one.svg",
-  "/assets/flags/flag_one.svg",
+  "/assets/flags/flag_two.svg",
+  "/assets/flags/flag_three.svg",
+  "/assets/flags/flag_four.svg",
+  "/assets/flags/flag_five.svg",
+  "/assets/flags/flag_six.svg",
 ];
 
 const Hero = () => {
@@ -28,9 +27,12 @@ const Hero = () => {
           </a>
         </div>
       </div>
-      <div className=" flex px-4 gap-2">
+      <div className=" flex px-4 gap-8">
         {flags.map((flag, index) => (
-          <div key={`flag_${index}`} className=" rounded-full w-16 h-16 ">
+          <div
+            key={`flag_${index}`}
+            className=" rounded-full overflow-hidden w-16 h-16 "
+          >
             <Image src={flag} width="100" height={100} alt={`flag_${index}`} />
           </div>
         ))}

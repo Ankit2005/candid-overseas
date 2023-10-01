@@ -1,5 +1,6 @@
 import Filters from "@/components/Filters";
 import Header from "@/components/Header";
+import ContactUs from "@/components/Home/ContactUs";
 import ImmigrationVisa from "@/components/Home/ImmigrationVisa";
 import Offerings from "@/components/Home/Offerings";
 import Services from "@/components/Home/Services";
@@ -32,6 +33,7 @@ const Page = async ({ searchParams }: Props) => {
         <Services />
         <Offerings />
         <ImmigrationVisa />
+        <ContactUs />
       </section>
     </main>
   );

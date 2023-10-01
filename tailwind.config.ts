@@ -66,6 +66,7 @@ module.exports = {
       },
       backgroundColor: {
         primary: "linear-gradient(to right, #0E149D, #6E0C80, #EE1B23)",
+        "custom-button": "linear-gradient(to right, #0E149D, #6E0C80, #EE1B23)",
       },
 
       backgroundImage: {

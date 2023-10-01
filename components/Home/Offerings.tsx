@@ -61,19 +61,19 @@ const OfferingsArr: offeringDetails[] = [
 const Offerings = () => {
   return (
     <div>
-      <section className="bg-white dark:bg-gray-900 py-4 px-2 mx-auto max-w-screen-xl lg:py-16">
+      <section className="bg-white mt-56 md:mt-0 dark:bg-gray-900 py-4  mx-auto max-w-screen-xl lg:py-16">
         <div>
-          <div className="bg-gray-50 dark:bg-gray-800  dark:border-gray-700 rounded-lg p-8 md:p-12 mb-8">
+          <div className="bg-gray-50 dark:bg-gray-800  dark:border-gray-700 rounded-lg p-3 md:p-12 mb-2">
             <a
               href="#"
               className=" text-blue-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-blue-400 mb-2"
             >
               Offerings
             </a>
-            <h1 className="text-gray-900 dark:text-white text-3xl md:text-5xl font-medium mb-2">
+            <h1 className="text-gray-900 dark:text-white text-2xl md:text-5xl font-medium mb-2">
               For all your study abroad needs
             </h1>
-            <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-6">
+            <p className=" md:text-2xl text-xl font-normal text-gray-500 dark:text-gray-400 mb-6">
               WooCommerce is a customizable, open-source eCommerce platform
               built on WordPress. Get started quickly and make your way.
             </p>

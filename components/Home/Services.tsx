@@ -27,7 +27,7 @@ const services: serviceDetails[] = [
 
 const Services = () => {
   return (
-    <div className=" h-[900px] relative ">
+    <div className=" h-[800px] relative ">
       <BgShape />
       <div className="py-8 px-4 mx-auto max-w-screen-xl  lg:py-16 ">
         <h2 className="heading3 mb-6 font-medium ">Service</h2>
@@ -87,7 +87,7 @@ const BgShape = () => {
     <>
       <div className=" z-[-3] w-52 h-52 absolute rounded-full bg-red-500 blur"></div>
       <div className=" z-[-3] w-40 h-40 absolute rounded-full right-0 top-[30%] bg-red-500 blur"></div>
-      <div className=" z-[-3] w-40 h-40 absolute rounded-full top-[80%]  bg-blue-500 blur"></div>
+      <div className=" z-[-3] w-40 h-40 absolute rounded-full top-[75%]  bg-blue-500 blur"></div>
     </>
   );
 };

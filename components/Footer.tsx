@@ -14,7 +14,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="text-white-100 relative  bg-footere- bg-bottom bg-no-repeat h-[620px] flex-between-d body-text w-full gap-y-10 border-t border-black-400 bg-darkBlue px-20 py-12 max-md:flex-col">
+    <footer className="text-white-100 relative  bg-footere- bg-bottom bg-no-repeat lg:h-[620px] flex-between-d body-text w-full gap-y-10 border-t border-black-400 bg-darkBlue px-20 py-12 max-md:flex-col">
       <div className="absolute bottom-2 mx-auto hidden sm:block ">
         <Image
           src="/assets/footer.svg" // Replace with your image path
@@ -25,7 +25,7 @@ const Footer = () => {
         />
       </div>
       <div className="max-w-screen-xl  mx-auto md:m-4 sm:px-6 lg:px-2">
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-4 lg:grid-cols-3">
           <div>
             <img src="#" className="mr-5 h-6 sm:h-9" alt="logo" />
             <p className="max-w-xs mt-4 text-sm text-white">
@@ -131,7 +131,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-2 lg:col-span-2 lg:grid-cols-4">
             <div>
               <p className="font-medium">Company</p>
               <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
@@ -218,7 +218,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="mt-8 text-xs text-white">© 2022 Comany Name</p>
+        <p className="mt-8 text-xs text-white">© 2022 candid overseas</p>
       </div>
     </footer>
   );
