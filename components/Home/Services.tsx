@@ -32,14 +32,14 @@ const Services = () => {
       <div className="py-8 px-4 mx-auto max-w-screen-xl  lg:py-16 ">
         <h2 className="heading3 mb-6 font-medium ">Service</h2>
 
-        <div className="grid grid-cols-1 gap-2 sm:grid-cols-3">
+        <div className="grid grid-cols-1 gap-1 md:grid-cols-3">
           <div>
             {services.map((service: serviceDetails, index: number) => (
               <ServiceCard key={index} details={service} />
             ))}
           </div>
-          <div className="bg-boy bg-contain bg-no-repeat"></div>
-          <div className="mt-24">
+          <div className="bg-boy hidden md:block bg-contain bg-no-repeat"></div>
+          <div className="md:mt-24">
             <h5 className="body-medium mb-4 ">
               Web Specialist based in Jakarta
             </h5>
@@ -51,9 +51,28 @@ const Services = () => {
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-          </div>
-          <div>
-            <div></div>
+            <div>
+              <div className="flex mt-10   items-center justify-between">
+                <div>
+                  <h3 className="heading4">13 Years</h3>
+                  <p className="mb-3 small-regular text-gray-500 dark:text-gray-400">
+                    Experience
+                  </p>
+                </div>
+                <div>
+                  <h3 className="heading4">256+</h3>
+                  <p className="mb-3 small-regular text-gray-500 dark:text-gray-400">
+                    Clients
+                  </p>
+                </div>
+                <div>
+                  <h3 className="heading4"> 99.8% </h3>
+                  <p className="mb-3 small-regular text-gray-500 dark:text-gray-400">
+                    Satisfaction
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -80,7 +99,7 @@ interface ServicesCardProps {
 
 const ServiceCard: React.FC<ServicesCardProps> = ({ key, details }) => {
   return (
-    <div key={`service_${key}`} className="max-w-sm p-2 mb-4 rounded-lg  ">
+    <div key={`service_${key}`} className="md:max-w-sm p-2 mb-4 rounded-lg  ">
       <div className="flex gap-3 items-center ">
         <div className="bg-white rounded-lg shadow-md p-3 m-3">
           <Image

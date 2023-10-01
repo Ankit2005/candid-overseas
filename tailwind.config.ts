@@ -78,6 +78,7 @@ module.exports = {
 
         navGradient:
           "linear-gradient(to right, #091242, #242854, #3b3f66, #535777, #6c7089)",
+        thread: "url('/assets/thread.svg')",
       },
 
       keyframes: {

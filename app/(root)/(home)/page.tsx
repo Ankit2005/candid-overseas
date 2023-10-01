@@ -1,5 +1,7 @@
 import Filters from "@/components/Filters";
 import Header from "@/components/Header";
+import ImmigrationVisa from "@/components/Home/ImmigrationVisa";
+import Offerings from "@/components/Home/Offerings";
 import Services from "@/components/Home/Services";
 import StudyCard from "@/components/Home/StudyCard";
 import ResourceCard from "@/components/ResourceCard";
@@ -28,6 +30,8 @@ const Page = async ({ searchParams }: Props) => {
         <Hero />
         <StudyCard />
         <Services />
+        <Offerings />
+        <ImmigrationVisa />
       </section>
     </main>
   );

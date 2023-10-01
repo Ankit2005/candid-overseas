@@ -24,7 +24,7 @@ const Footer = () => {
           layout="responsive" // Use "responsive" to maintain aspect ratio
         />
       </div>
-      <div className="max-w-screen-xl  mx-auto sm:px-6 lg:px-2">
+      <div className="max-w-screen-xl  mx-auto md:m-4 sm:px-6 lg:px-2">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <img src="#" className="mr-5 h-6 sm:h-9" alt="logo" />
