@@ -16,7 +16,7 @@ const Page = async () => {
     <Hero />
     <GetBenefit/>
     <CityInfo/>
-    <CompanyFeatureSection/>
+    <CompanyFeatureSection/>      
    
     <Footer/>
     </main>
