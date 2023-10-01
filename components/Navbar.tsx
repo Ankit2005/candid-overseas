@@ -140,7 +140,7 @@ const NavbarMain = () => {
   // };
   return (
     <nav className="bg-navGradient ">
-      <div className="flex flex-wrap justify-start items-center mx-auto max-w-screen-xl p-4">
+      <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
         <button
           data-collapse-toggle="mega-menu-full"
           type="button"
@@ -167,7 +167,7 @@ const NavbarMain = () => {
         </button>
         <div
           id="mega-menu-full"
-          className="items-center p-2 text-white justify-between font-medium hidden w-full md:flex md:w-auto md:order-1"
+          className=" items-center justify-between p-2 text-white hidden  font-medium  w-full md:flex md:w-auto md:order-1"
         >
           <ul className="flex flex-col text-lg p-4 md:p-0 mt-4 rounded-lg bg-transprent md:flex-row md:space-x-8 md:mt-0 md:border-0 text-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             {menues.map((menu, ind) => {
@@ -213,6 +213,17 @@ const NavbarMain = () => {
               );
             })}
           </ul>
+        </div>
+        <div className="md:hidden block  ">
+          <Link href="/">
+            <Image
+              src="/assets/candid_logo.svg"
+              className=" rounded-md"
+              width={80}
+              height={80}
+              alt="candid logo"
+            />
+          </Link>
         </div>
       </div>
 
