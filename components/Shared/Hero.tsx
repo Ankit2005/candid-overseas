@@ -13,7 +13,7 @@ const flags = [
 
 const Hero = () => {
   return (
-    <section className="bg-center p-0 sm:p-8  lg:p-32 h-[95vh] bg-no-repeat bg-heroBannerOne flex flex-col justify-center lg:items-start lg:justify-start dark:bg-gray-900">
+    <section className="bg-center p-0 sm:p-8  lg:p-32 h-[95vh] bg-no-repeat bg-ourServicesImg flex flex-col justify-center lg:items-start lg:justify-start dark:bg-gray-900">
       <div className="py-8 w-[100%] md:w-[90%] lg:w-[70%] px-4 mx-auto-e max-w-screen-xl lg:py-16">
         <div className=" dark:bg-gray-800  border-gray-200 dark:border-gray-700 rounded-lg py-2 md:py-12 mb-2">
           <h1 className="text-white   dark:text-white text-4xl md:text-5xl lg:text-6xl  font-medium mb-2">

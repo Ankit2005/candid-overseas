@@ -46,6 +46,7 @@ module.exports = {
           200: "#161B22",
           300: "#1F2428",
           400: "#242C38",
+          500:"#211F20"
         },
         grey: {
           100: "#969BA5",
@@ -63,6 +64,9 @@ module.exports = {
         orange: "#FF964B",
         darkBlueNav: "#0E0146",
         darkBlue: "#002777",
+        lightRed:"#FFDBDC",
+         bgBlue:"#1E47FF",
+        
       },
       backgroundColor: {
         primary: "linear-gradient(to right, #0E149D, #6E0C80, #EE1B23)",
@@ -72,6 +76,8 @@ module.exports = {
         banner: "url('/jsm_resources_banner.svg')",
         footer: "url('/assets/footer.svg')",
         boy: "url('/assets/boy.svg')",
+        ourServicesImg: "url(/assets/our_service_img.svg)",
+        companyFeature:"url('/assets/company_feature_img.svg')", 
 
         heroBannerOne:
           "linear-gradient(to right, rgb(3 45 95 / 92%) 0%, rgb(3 45 95 / 55%) 100%, rgba(9, 18, 66, 0.8) 100%), url(/assets/hero_sec_one_img.svg)",
