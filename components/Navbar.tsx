@@ -108,7 +108,31 @@ const HeaderContactCard: React.FC<HeaderContactCardProps> = ({ details }) => {
   );
 };
 const NavbarMain = () => {
-  const menues = ["Home", "About", "Exam", "Pages", "Project", "Contact"];
+  const menues = [
+    {
+      title: "Home",
+      link: "/",
+    },
+    {
+      title: "About",
+      link: "/about-us",
+    },
+    {
+      title: "Exam",
+      link: "/exam",
+    },
+    {
+      title: "Immigration",
+      link: "/immigration",
+    },
+    {
+      title: "Contact",
+      link: "/contact",
+    },
+  ];
+  // const changeRoute = (link: string) => {
+  //   router.push(link);
+  // };
   return (
     <nav className="bg-navGradient ">
       <div className="flex flex-wrap justify-start items-center mx-auto max-w-screen-xl p-4">
@@ -144,14 +168,14 @@ const NavbarMain = () => {
             {menues.map((menu, ind) => {
               return (
                 <>
-                  {menu === "Exam" ? (
+                  {menu.title === "Exam" ? (
                     <li key={`menu_${ind}`}>
                       <button
                         id="mega-menu-full-dropdown-button"
                         data-collapse-toggle="mega-menu-full-dropdown"
                         className="flex items-center justify-between w-full py-2 pl-3 pr-4  text-white rounded md:w-auto hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
                       >
-                        {menu}
+                        {menu.title}
                         <svg
                           className="w-2.5 h-2.5 ml-2.5"
                           aria-hidden="true"
@@ -171,13 +195,13 @@ const NavbarMain = () => {
                     </li>
                   ) : (
                     <li key={`menu_${ind}`}>
-                      <a
-                        href="#"
+                      <Link
+                        href={menu.link}
                         className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
                         aria-current="page"
                       >
-                        {menu}
-                      </a>
+                        {menu.title}
+                      </Link>
                     </li>
                   )}
                 </>

@@ -14,7 +14,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="text-white-100 relative  bg-footere- bg-bottom bg-no-repeat lg:h-[620px] flex-between-d body-text w-full gap-y-10 border-t border-black-400 bg-darkBlue px-20 py-12 max-md:flex-col">
+    <footer className="text-white-100 relative  bg-footere- bg-bottom bg-no-repeat lg:h-[620px] flex-between-d body-text w-full gap-y-10 border-t border-black-400 bg-darkBlue p-8 md:px-20 py-12 max-md:flex-col">
       <div className="absolute bottom-2 mx-auto hidden sm:block ">
         <Image
           src="/assets/footer.svg" // Replace with your image path
