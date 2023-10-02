@@ -44,7 +44,7 @@ const CompanyFeatures: React.FC = () => {
         {features.map((feature, index) => (
           <div
             key={index}
-            className="group bg-white hover:bg-red-500 hover:text-white transition duration-300 ease-in-out transform hover:scale-105 rounded-lg overflow-hidden shadow-md flex flex-col items-center p-4"
+            className="group w-full md:w-2/3 bg-white hover:bg-red-500 hover:text-white transition duration-300 ease-in-out transform hover:scale-105 rounded-lg overflow-hidden shadow-md flex flex-col items-center p-4"
           >
             <img
               src={feature.logoUrl}

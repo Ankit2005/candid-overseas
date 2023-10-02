@@ -51,6 +51,8 @@ module.exports = {
         grey: {
           100: "#969BA5",
           200: "#55616D",
+        300:"#909090",
+        400:"#666666",
         },
         white: {
           DEFAULT: "#FFF",
@@ -58,6 +60,8 @@ module.exports = {
           500: "#A4B8D5",
           800: "#D0DFFF",
         },
+        secondaryText:"#211F20",
+        blue:"#527CEB",
         purple: "#8C7CFF",
         pink: "#ED5FBD",
         violet: "#F16565",
@@ -66,6 +70,11 @@ module.exports = {
         darkBlue: "#002777",
         lightRed:"#FFDBDC",
          bgBlue:"#1E47FF",
+         lightPurple:"#562383",
+         lightBlue:"#F1EEFF",
+         mediumRed:"#FFDBDD",
+         redHeading:"#EE1A24",
+         
         
       },
       backgroundColor: {
@@ -79,6 +88,9 @@ module.exports = {
         boy: "url('/assets/boy.svg')",
         ourServicesImg: "url(/assets/our_service_img.svg)",
         companyFeature:"url('/assets/company_feature_img.svg')", 
+
+        ImmegrationBanner:
+          "linear-gradient(to right, rgb(3 45 95 / 92%) 0%, rgb(3 45 95 / 55%) 100%, rgba(9, 18, 66, 0.8) 100%), url(/assets/immagration_img.svg)",
 
         heroBannerOne:
           "linear-gradient(to right, rgb(3 45 95 / 92%) 0%, rgb(3 45 95 / 55%) 100%, rgba(9, 18, 66, 0.8) 100%), url(/assets/hero_sec_one_img.svg)",

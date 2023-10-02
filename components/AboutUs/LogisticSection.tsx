@@ -49,7 +49,7 @@ const LogisticsSection: React.FC = () => {
               alt="Logistics Image"
               className="w-full h-auto rounded-md"
             />
-            <div className="md:w-1/2 p-6 absolute top-[21rem] bg-white -left-[100px]">
+            <div className="md:w-2/3 lg:w-1/2 p-6 hidden md:block absolute md:top-[9.5rem] lg:top-[17rem] xl:top-[21rem] lg:bg-white md:-left-[20px] lg:-left-[100px]">
               <img
                 src="/assets/people_box.svg"
                 alt="Logistics Image"
@@ -59,7 +59,7 @@ const LogisticsSection: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className=" mx-0 w-full md:w-1/2 flex flex-row md:flex-row justify-evenly space-x-10">
+      <div className=" mx-0 w-full md:w-1/2 flex flex-col md:flex-row justify-evenly px-10 md:px-0 space-x-0 md:space-x-10">
         <div className=" p-4 text-center flex space-x-2">
           <h2 className="text-3xl text-gray-600 font-semibold">1294</h2>
           <img

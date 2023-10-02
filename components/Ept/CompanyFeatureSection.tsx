@@ -27,8 +27,8 @@ const CompanyFeatureSection: React.FC = () => {
           {companyFeatures.map((feature, index) => (
             <div key={index} className="bg-white p-4 rounded-lg shadow-lg mt-4 w-auto max-w-sm">
              <img src="/assets/mechanic.svg" alt="mechanic" className="w-12 h-12 bg-bgBlue p-3 rounded-full my-3" />
-              <h4 className="text-xl text-[#000000] font-semibold my-2">{feature.title}</h4>
-              <ul className="list-disc text-[#666666] ml-4">
+              <h4 className="text-xl text-black font-semibold my-2">{feature.title}</h4>
+              <ul className="list-disc text-secondaryText ml-4">
                 <li>{feature.description}</li>
               </ul>
             </div>

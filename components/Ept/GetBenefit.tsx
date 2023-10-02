@@ -11,21 +11,21 @@ const cardData: CardData[] = [
   {
     logoUrl: "/assets/bulb.svg",
     title: "STRATEGY",
-    heading: "Student Visa",
+    heading: "Listening:",
     description:
       "Companies bring in consultants when they have problems they can’t solve on challenge.",
   },
   {
     logoUrl: "/assets/bulb.svg",
     title: "ANOTHER TITLE",
-    heading: "Visitor Visa",
+    heading: "Reading:",
     description:
-      "Another description for this card. You can add more card data as needed.",
+      "Companies bring in consultants when they have problems they can’t solve on challenge.",
   },
   {
     logoUrl: "/assets/bulb.svg",
     title: "STRATEGY",
-    heading: "Dependent Visa",
+    heading: "Writing:",
     description:
       "Companies bring in consultants when they have problems they can’t solve on challenge.",
   },
@@ -33,7 +33,7 @@ const cardData: CardData[] = [
   {
     logoUrl: "/assets/bulb.svg",
     title: "STRATEGY",
-    heading: "Dependent Visa",
+    heading: "Speaking:",
     description:
       "Companies bring in consultants when they have problems they can’t solve on challenge.",
   },
@@ -48,15 +48,15 @@ const GetBenefit: React.FC = () => {
         {/* Right side section */}
         <div className=" rounded-lg  p-6 mx-auto md:w-2/ lg:w-auto ">
           {/* Heading */}
-          <h1 className="text-3xl text-black-500 font-normal mb-4">
+          <h1 className="text-3xl text-secondaryText font-bold mb-4">
             Get benifits & work{" "}
           </h1>
-          <h1 className="text-3xl text-black-500 font-normal mb-4">
+          <h1 className="text-3xl text-secondaryText font-bold mb-4">
             about product designer
           </h1>
 
           {/* Paragraph */}
-          <p className="text-gray-700 leading-9">
+          <p className="text-grey-300 leading-9">
             Leverage agile frameworks to provide a robust synopsis for strategy,
             foster collaborative thinking to further the overall value
             proposition. Organically grow the holistic world view of disruptive
@@ -107,7 +107,7 @@ const GetBenefit: React.FC = () => {
 
                   {/* Right Side (Heading) */}
                   <div className="pl-4">
-                    <p className="text-lg text-[#527CEB] font-semibold">
+                    <p className="text-lg text-blue font-semibold">
                       {card.title}
                     </p>
                   </div>
@@ -118,10 +118,10 @@ const GetBenefit: React.FC = () => {
 
               <div className="my-2">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  {card.heading}:
+                  {card.heading}
                 </h5>
 
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                <p className="mb-3 font-normal text-grey-300 dark:text-gray-400">
                   {card.description}
                 </p>
               </div>

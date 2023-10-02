@@ -2,6 +2,7 @@
 import CityInfo from "@/components/AboutUs/CityInfo";
 import CompanyFeatureSection from "@/components/Ept/CompanyFeatureSection";
 import GetBenefit from "@/components/Ept/GetBenefit";
+import OurFacilities from "@/components/Ept/OurFacilities";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Shared/Hero";
@@ -14,6 +15,7 @@ const Page = async () => {
 
     <Navbar/>
     <Hero />
+    <OurFacilities/>
     <GetBenefit/>
     <CityInfo/>
     <CompanyFeatureSection/>      
