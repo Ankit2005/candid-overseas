@@ -61,10 +61,9 @@ const TeamMemberCard: React.FC<TeamMemberProps> = ({ name, role, imageUrl,svgUrl
 const CountryStudentDetail: React.FC = () => {
   return (
     <div className="container mx-auto py-8">
-      <h1 className="text-3xl font-semibold text-gray-800 text-center">Meet Our Team</h1>
-      <h2 className="text-3xl text-black-500 text-center mt-4">Experienced Team Members</h2>
+     
 
-      <div className="flex flex-col md:flex-row justify-center mt-8 space-y-4 md:space-y-0 md:space-x-4">
+      <div className="flex flex-col md:flex-row justify-center  space-y-4 md:space-y-0 md:space-x-4">
         {/* Card 1 */}
         <TeamMemberCard
           name="CANADA"
