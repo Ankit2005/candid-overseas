@@ -43,12 +43,12 @@ const cardData: CardData[] = [
 
 const WorkAbout: React.FC = () => {
   return (
-<section className="bg-center p-0 sm:p-8 lg:p-32 bg-companyFeature bg-no-repeat  dark:bg-gray-900">
+<section className="bg-center p-0 sm:p-8 lg:p-32 bg-companyFeature   dark:bg-gray-900">
       <div className="mx-4">
         <p className="text-lg text-center text-white">We believe scaling start-ups require a radically different kind of agency</p>
         <h4 className="text-2xl text-center text-white font-bold  mb-4">I Want Company Feature</h4>
 
-<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div className="grid grid-cols-1 md:grid-cols-2 gap-6 py-2">
   {cardData.map((feature, index) => (
     <div key={index} className="bg-white p-4 w-full md:w-4/5 rounded-lg shadow-lg mt-4 ">
       <img src={feature.logoUrl} alt="mechanic" className="w-12 h-12 rounded-full my-3" />

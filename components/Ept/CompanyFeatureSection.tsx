@@ -23,7 +23,7 @@ const CompanyFeatureSection: React.FC = () => {
         <p className="text-lg text-center text-white">We believe scaling start-ups require a radically different kind of agency</p>
         <h4 className="text-2xl text-center text-white font-bold  mb-4">I Want Company Feature</h4>
 
-        <div className="flex flex-col  md:flex-row justify-center space-x-0 md:space-x-4">
+        <div className="flex flex-col  md:flex-row justify-center space-x-0 md:space-x-4 my-4 md:my-1">
           {companyFeatures.map((feature, index) => (
             <div key={index} className="bg-white p-4 rounded-lg shadow-lg mt-4 w-auto max-w-sm">
              <img src="/assets/mechanic.svg" alt="mechanic" className="w-12 h-12 bg-bgBlue p-3 rounded-full my-3" />

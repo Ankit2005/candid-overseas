@@ -63,7 +63,7 @@ const CountryStudentDetail: React.FC = () => {
     <div className="container mx-auto py-8">
      
 
-      <div className="flex flex-col md:flex-row justify-center  space-y-4 md:space-y-0 md:space-x-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-col-4 gap-3">
         {/* Card 1 */}
         <TeamMemberCard
           name="CANADA"
