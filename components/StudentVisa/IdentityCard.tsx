@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 interface FeatureCardProps {
@@ -31,10 +32,14 @@ const IdentityCard: React.FC = () => {
   return (
     <div className=" text-gray-800 py-12">
       <div className="container mx-auto text-center">
-        <h1 className="text-lightPurple font-semibold">
+        <h1  data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="2000" className="text-lightPurple font-semibold">
         Our Facilities
         </h1>
-        <p className=" text-secondaryText font-bold text-3xl mt-2">
+        <p  data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="2000" className=" text-secondaryText font-bold text-3xl mt-2">
         Identify your 3Cs.
           agency
         </p>
@@ -42,15 +47,20 @@ const IdentityCard: React.FC = () => {
 
       <div className="container mx-auto mt-12  flex flex-col md:flex-row justify-center space-y-6 md:space-y-0 md:space-x-6">
         {features.map((feature, index) => (
-          <div
+          <div   data-aos="zoom-in"
+          data-aos-anchor-placement="bottom-bottom"
+          data-aos-duration="1400"
             key={index}
             className="group w-full md:w-2/3 bg-[#E3F3FF]   transition duration-300 ease-in-out transform  rounded-lg overflow-hidden shadow-md flex flex-col items-center p-4"
           >
-            <img
-              src={feature.logoUrl}
-              alt={feature.title}
-              className="w-16 h-16 mb-4"
-            />
+           <Image
+  src={feature.logoUrl}
+  alt={feature.title}
+  width={64} // Set your desired width here
+  height={64} // Set your desired height here
+  className="mb-4"
+/>
+
             <h2 className="text-xl font-semibold text-gray-800">
               {feature.title}
             </h2>

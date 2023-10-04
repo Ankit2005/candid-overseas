@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 interface ServiceCardProps {
@@ -15,7 +16,14 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
     
     <div className="group bg-white rounded-lg overflow-hidden shadow-md hover:bg-[#0E0146] hover:text-white transition duration-300 ease-in-out">
       <div className="flex items-center p-4">
-        <img src={logoUrl} alt={title} className="w-12 h-12 bg-[#F4EBFF] p-2 rounded-lg" />
+      <Image
+  src={logoUrl}
+  alt={title}
+  width={48} // Set your desired width here
+  height={48} // Set your desired height here
+  className="bg-[#F4EBFF] p-2 rounded-lg"
+/>
+
         <h2 className="text-xl font-semibold text-gray-700 group-hover:text-white ml-8">
           {title}
         </h2>
@@ -98,9 +106,11 @@ const ServiceCards: React.FC = () => {
         <section className="bg-center p-0 sm:p-8  lg:p-32 bg-no-repeat bg-heroBannerOne flex flex-col justify-center lg:items-start lg:justify-start dark:bg-gray-900">
 <div className="container mx-auto text-center" >
 
-    <h1 className=" heading1 text-white ">Our Services</h1>
+    <h1 data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="2000" className=" heading1 text-white ">Our Services</h1>
 </div>
-    <div className="container mx-auto py-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div  data-aos="flip-right" className="container mx-auto py-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {services.map((service, index) => (
         <ServiceCard key={index} {...service} />
       ))}

@@ -1,4 +1,5 @@
 
+import Image from 'next/image';
 import React from 'react';
 
 interface TeamMemberProps {
@@ -15,14 +16,31 @@ const TeamMemberCard: React.FC<TeamMemberProps> = ({ name, role, imageUrl,svgUrl
     <div className="h-full flex flex-col overflow-hidden border border-gray-300 rounded-lg relative">
       <div className="relative">
         {/* <!-- Image --> */}
-        <img className="w-full h-64 md:h-48 object-cover" src={imageUrl} alt="Image Alt Text" />
+        <Image
+  src="/assets/skill_migrent_two.svg"
+  alt="Your Image"
+  layout="responsive"
+  width={600} // Set your desired width here
+  height={600} // Set your desired height here
+  className="rounded-lg transition duration-300 ease-in-out transform group-hover:scale-105"
+/>
         {/* <!-- SVG in the top left corner --> */}
         <div className="absolute top-0 left-0 m-2 w-8 h-8 text-white fill-current">
-          <img className="" src={svgUrl} alt="SVG Icon" />
+        <Image
+  src={svgUrl}
+  alt="SVG Icon"
+  width={64} // Set your desired width here
+  height={64} // Set your desired height here
+  className="" // Add any additional CSS classes if needed
+/>
+
         </div>
         <div className="absolute right-0 bottom-6">
-          <a
-            href="#"
+          <a 
+            href="#" 
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="3000"
             className="border btn-primary inline-flex justify-center items-center py-1.5 px-2 text-base font-medium text-center text-white rounded-md my-4 ml-8"
           >
             Read more

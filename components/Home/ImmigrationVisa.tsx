@@ -18,7 +18,9 @@ const ImmigrationVisa = () => {
               <br className="hidden md:block" /> Countries
             </h1>
           </div>
-          <div className="w-full">
+          <div data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="2000" className="w-full">
             <Image
               src="/assets/big_map.svg"
               width={1200}

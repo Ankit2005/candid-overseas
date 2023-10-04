@@ -5,6 +5,7 @@ import HowItWork from "@/components/Immegration/HowItWork";
 import SkillMigrant from "@/components/Immegration/SkillMigrant";
 import TransportImage from "@/components/Immegration/TransportImage";
 import Navbar from "@/components/Navbar";
+import Hero from "@/components/Shared/Hero";
 
 
 
@@ -15,7 +16,8 @@ const Page = async () => {
     <main className="">
 
     <Navbar/>
-  <TransportImage/>
+  {/* <TransportImage/> */}
+  <Hero/>
     <Consultant/>
     <SkillMigrant/>
     <HowItWork/>

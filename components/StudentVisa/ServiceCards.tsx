@@ -28,15 +28,22 @@ const ServiceCards: React.FC = () => {
   ];
 
   return (
-    <div className="container mx-auto p-4">
-      <p className="text-lg text-center text-lightPurple">Services</p>
-      <h4 className="text-3xl text-center text-secondaryText font-bold mt-2 mb-4">
+    <div className="container mx-auto my-2 md:my-6 p-4">
+      <p  data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="2000"  className="text-lg text-center text-lightPurple">Services</p>
+      <h4  data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="2000" className="text-3xl text-center text-secondaryText font-bold mt-2 mb-4">
         Other Services
       </h4>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {services.map((service, index) => (
           <div
             key={index}
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration={index * 400}
             className={`p-6 rounded-lg shadow-lg ${
               (index % 4 === 0 || index % 4 === 3) // Use index % 4 to determine the pattern
                 ? 'bg-lightBlue text-grey-400'

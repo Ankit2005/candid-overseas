@@ -1,4 +1,5 @@
 
+import Image from 'next/image';
 import React from 'react';
 
 interface TeamMemberProps {
@@ -10,7 +11,17 @@ interface TeamMemberProps {
 const TeamMemberCard: React.FC<TeamMemberProps> = ({ name, role, imageUrl }) => {
   return (
     <div className="bg-white rounded-lg overflow-hidden shadow-md flex flex-col items-center p-4 md:w-1/3">
-      <img src={imageUrl} alt={name} className="w-auto h-auto  mb-4" />
+<Image
+          data-aos="zoom-in"
+          data-aos-anchor-placement="bottom-bottom"
+          data-aos-duration="1400"
+
+  src="/assets/person_image.svg"
+  alt="Your Image"
+  width={1000}
+  height={1000} // Set your desired height here
+  className="mb-4"
+/>
       <h3 className="text-lg font-semibold text-gray-800">{name}</h3>
       <p className="text-gray-600 text-center">{role}</p>
     </div>

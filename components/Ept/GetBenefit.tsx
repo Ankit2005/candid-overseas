@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 interface CardData {
@@ -48,15 +49,21 @@ const GetBenefit: React.FC = () => {
         {/* Right side section */}
         <div className=" rounded-lg  p-6 mx-auto md:w-2/ lg:w-auto ">
           {/* Heading */}
-          <h1 className="text-3xl text-secondaryText font-bold mb-4">
+          <h1             data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="2000" className="text-3xl text-secondaryText font-bold mb-4">
             Get benifits & work{" "}
           </h1>
-          <h1 className="text-3xl text-secondaryText font-bold mb-4">
+          <h1   data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="2000" className="text-3xl text-secondaryText font-bold mb-4">
             about product designer
           </h1>
 
           {/* Paragraph */}
-          <p className="text-grey-300 leading-9">
+          <p data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="2000" className="text-grey-300 leading-9">
             Leverage agile frameworks to provide a robust synopsis for strategy,
             foster collaborative thinking to further the overall value
             proposition. Organically grow the holistic world view of disruptive
@@ -64,6 +71,9 @@ const GetBenefit: React.FC = () => {
           </p>
 
           <a
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+          data-aos-duration="2000"
             href="#"
             className="border btn-primary inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white rounded-md my-10 "
           >
@@ -92,17 +102,23 @@ const GetBenefit: React.FC = () => {
           {cardData.map((card, index) => (
             <div
               key={index}
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-duration={index * 400}
               className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
             >
               <div className="bg-white mx-auto max-w-md">
                 <div className="flex justify-between">
                   {/* Left Side (Icon) */}
                   <div className="w-1/6">
-                    <img
-                      src={card.logoUrl}
-                      alt={card.title}
-                      className="w-8 h-8 mb-4"
-                    />
+                  <Image
+  src={card.logoUrl}
+  alt={card.title}
+  width={32} // Set your desired width here
+  height={32} // Set your desired height here
+  className="mb-4"
+/>
+
                   </div>
 
                   {/* Right Side (Heading) */}
@@ -118,7 +134,7 @@ const GetBenefit: React.FC = () => {
 
               <div className="my-2">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  {card.heading}
+                  {card.heading}  
                 </h5>
 
                 <p className="mb-3 font-normal text-grey-300 dark:text-gray-400">

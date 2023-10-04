@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 interface FacilityProps {
@@ -10,7 +11,14 @@ const FacilityItem: React.FC<FacilityProps> = ({ imageSrc, title }) => (
   <div className="flex my-4 space-x-4">
     {/* Left side SVG */}
     <div>
-      <img src={imageSrc} alt="cube" className="h-9 w-9" />
+    <Image
+  src={imageSrc}
+  alt="cube"
+  width={36} // Set your desired width here
+  height={36} // Set your desired height here
+  className="h-9 w-9"
+/>
+
     </div>
 
     {/* Right side content */}
@@ -45,17 +53,30 @@ const OurFacilities: React.FC = () => {
     <div className="flex flex-col md:flex-row">
       {/* Left side with image */}
       <div className="md:w-1/2">
-        <img src="/assets/person_image.svg" alt="Your Image" className="w-full h-64 " />
+      <Image
+  src="/assets/person_image.svg"
+  alt="Your Image"
+  width={500} // Set your desired width here
+  height={320} // Set your desired height here
+  //className="w-full h-64"
+/>
+
       </div>
 
       {/* Right side with content */}
       <div className="md:w-1/2 p-8">
-        <p className="text-xl text-lightPurple ">Our Facilities</p>
-        <h2 className="text-2xl text-secondaryText font-bold">We provide a full range of global logistics solutions.</h2>
+        <p  data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="2000" className="text-xl text-lightPurple ">Our Facilities</p>
+        <h2  data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="2000" className="text-2xl text-secondaryText font-bold">We provide a full range of global logistics solutions.</h2>
 
         {/* Facility items */}
         {facilitiesData.map((facility, index) => (
-          <FacilityItem
+          <FacilityItem    data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+          data-aos-duration="2000"
             key={index}
             imageSrc={facility.imageSrc}
             title={facility.title}

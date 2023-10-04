@@ -64,16 +64,22 @@ const Offerings = () => {
       <section className="bg-white mt-56 md:mt-0 dark:bg-gray-900 py-4  mx-auto max-w-screen-xl lg:py-16">
         <div>
           <div className="bg-gray-50 dark:bg-gray-800  dark:border-gray-700 rounded-lg p-3 md:p-12 mb-2">
-            <a
+            <a data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="2000"
               href="#"
               className=" text-blue-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-blue-400 mb-2"
             >
               Offerings
             </a>
-            <h1 className="text-gray-900 dark:text-white text-2xl md:text-5xl font-medium mb-2">
+            <h1 data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="2000" className="text-gray-900 dark:text-white text-2xl md:text-5xl font-medium mb-2">
               For all your study abroad needs
             </h1>
-            <p className=" md:text-2xl text-xl font-normal text-gray-500 dark:text-gray-400 mb-6">
+            <p data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="2000" className=" md:text-2xl text-xl font-normal text-gray-500 dark:text-gray-400 mb-6">
               WooCommerce is a customizable, open-source eCommerce platform
               built on WordPress. Get started quickly and make your way.
             </p>
@@ -84,7 +90,9 @@ const Offerings = () => {
         </div>
         <div>
           {OfferingsArr.map((item: offeringDetails, index: number) => (
-            <div>
+            <div  data-aos="zoom-in"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="1400">
               <OfferingCard key={index} details={item} index={index} />
             </div>
           ))}
