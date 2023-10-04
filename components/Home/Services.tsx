@@ -30,7 +30,14 @@ const Services = () => {
     <div className=" h-[800px] relative ">
       <BgShape />
       <div className="py-8 px-4 mx-auto max-w-screen-xl  lg:py-16 ">
-        <h2 className="heading3 mb-6 font-medium ">Service</h2>
+        <h2
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+          data-aos-duration="2000"
+          className="heading3 mb-6 font-medium "
+        >
+          Service
+        </h2>
 
         <div className="grid grid-cols-1 gap-1 md:grid-cols-3">
           <div>
@@ -100,7 +107,12 @@ interface ServicesCardProps {
 const ServiceCard: React.FC<ServicesCardProps> = ({ key, details }) => {
   return (
     <div key={`service_${key}`} className="md:max-w-sm p-2 mb-4 rounded-lg  ">
-      <div className="flex gap-3 items-center ">
+      <div
+        data-aos="zoom-in"
+        data-aos-anchor-placement="bottom-bottom"
+        data-aos-duration="1400"
+        className="flex gap-3 items-center "
+      >
         <div className="bg-white rounded-lg shadow-md p-3 m-3">
           <Image
             width={60}
@@ -115,7 +127,12 @@ const ServiceCard: React.FC<ServicesCardProps> = ({ key, details }) => {
           </h5>
         </a>
       </div>
-      <p className="mb-3 px-2 font-normal text-gray-500 dark:text-gray-400">
+      <p
+        data-aos="zoom-in"
+        data-aos-anchor-placement="bottom-bottom"
+        data-aos-duration="1800"
+        className="mb-3 px-2 font-normal text-gray-500 dark:text-gray-400"
+      >
         {details.content}
       </p>
     </div>

@@ -33,14 +33,27 @@ const StudyCard = () => {
           <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12 mb-8">
             <a
               href="#"
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-duration="1000"
               className=" text-blue-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-blue-400 mb-2"
             >
               Offerings
             </a>
-            <h1 className="text-gray-900 dark:text-white text-3xl md:text-5xl font-medium mb-2">
+            <h1
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-duration="2000"
+              className="text-gray-900 dark:text-white text-3xl md:text-5xl font-medium mb-2"
+            >
               For all your study abroad needs
             </h1>
-            <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-6">
+            <p
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-duration="2600"
+              className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-6"
+            >
               WooCommerce is a customizable, open-source eCommerce platform
               built on WordPress. Get started quickly and make your way.
             </p>
@@ -49,21 +62,37 @@ const StudyCard = () => {
             {studyCards.map((item, index) => (
               <div
                 key={`card_${index}`}
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration={index * 900}
                 className="e-max-w-sm bg-white  border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
               >
                 <Image width={700} height={500} src={item.img} alt="img" />
 
                 <div className="p-5">
-                  <a href="#">
+                  <a
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
+                    data-aos-duration="1200"
+                    href="#"
+                  >
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                       {item.title}
                     </h5>
                   </a>
-                  <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  <p
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
+                    data-aos-duration="1600"
+                    className="mb-3 font-normal text-gray-700 dark:text-gray-400"
+                  >
                     {item.content}
                   </p>
                   <a
                     href="#"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
+                    data-aos-duration="2000"
                     className="border btn-primary inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white rounded-md mt-4"
                   >
                     Read more

@@ -1,4 +1,3 @@
-
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Shared/Hero";
@@ -12,20 +11,15 @@ const Page = async () => {
   // h-[calc(100vh - 400px)]
   return (
     <main className="">
+      <Navbar />
+      <Hero />
+      <IdentityCard />
+      <CountryStudentDetail />
+      <WorkAbout />
+      <ServiceCards />
 
-    <Navbar/>
-    <Hero />
-    <IdentityCard/>
-    <CountryStudentDetail/>
-<WorkAbout/>
-<ServiceCards/>
-
-
-
-   
-    <Footer/>
+      <Footer />
     </main>
-
   );
 };
 
