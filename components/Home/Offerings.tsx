@@ -88,11 +88,10 @@ const Offerings = () => {
             ssdfd
           </div>
         </div>
-        <div>
+        <div >
           {OfferingsArr.map((item: offeringDetails, index: number) => (
-            <div  data-aos="zoom-in"
-            data-aos-anchor-placement="bottom-bottom"
-            data-aos-duration="1400">
+            <div               data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom" >
               <OfferingCard key={index} details={item} index={index} />
             </div>
           ))}

@@ -20,7 +20,7 @@ const ImmigrationVisa = () => {
           </div>
           <div data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
-            data-aos-duration="2000" className="w-full">
+            data-aos-duration="1400" className="w-full">
             <Image
               src="/assets/big_map.svg"
               width={1200}
