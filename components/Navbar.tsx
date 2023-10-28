@@ -41,7 +41,7 @@ export default Navbar;
 const Header = () => {
   return (
     <div className="flex justify-around items-center mx-auto w-full max-w-screen-2xl md:px-6 xs:px-8 sm:px-16">
-      <div className="hidden md:block  ">
+      <div className="hidden md:block">
         <Link href="/">
           <Image
             src="/assets/candid_logo.svg"

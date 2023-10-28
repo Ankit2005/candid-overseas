@@ -55,18 +55,31 @@ const CityInfo: React.FC = () => {
 
   return (
     <div className="container mx-auto p-4 my-2 md:my-6">
-      <h4 data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
-            data-aos-duration="2000" className="text-gray-400">Our Facilities</h4>
-      <h1 data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
-            data-aos-duration="2000" className="heading1 text-3xl font-medium">Time Schedule </h1>
+      <h4
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+        data-aos-duration="2000"
+        className="text-gray-400"
+      >
+        Our Facilities
+      </h4>
+      <h1
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+        data-aos-duration="2000"
+        className="heading1 text-3xl font-medium"
+      >
+        Time Schedule{" "}
+      </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {/* Left Side */}
-        <div         data-aos="zoom-in"
-        data-aos-anchor-placement="bottom-bottom"
-        data-aos-duration="1400" className="bg-white text-gray-700  rounded-md shadow-md">
+        <div
+          data-aos="zoom-in"
+          data-aos-anchor-placement="bottom-bottom"
+          data-aos-duration="1400"
+          className="bg-white text-gray-700  rounded-md shadow-md"
+        >
           <ul>
             {Object.keys(citiesData).map((city) => (
               <li
@@ -85,9 +98,12 @@ const CityInfo: React.FC = () => {
         </div>
 
         {/* Right Side */}
-        <div         data-aos="zoom-in"
-        data-aos-anchor-placement="bottom-bottom"
-        data-aos-duration="1400" className="bg-[#F0ECFF]  text-[#002777] p-4 rounded-md shadow-md">
+        <div
+          data-aos="zoom-in"
+          data-aos-anchor-placement="bottom-bottom"
+          data-aos-duration="1400"
+          className="bg-[#F0ECFF]  text-[#002777] p-4 rounded-md shadow-md"
+        >
           <ul>
             <li>Office Time: {citiesData[selectedCity].officeTime}</li>
             <li>Grammar: {citiesData[selectedCity].grammar}</li>
