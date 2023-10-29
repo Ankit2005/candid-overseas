@@ -87,7 +87,10 @@ module.exports = {
         footer: "url('/assets/footer.svg')",
         boy: "url('/assets/boy.svg')",
         ourServicesImg: "url(/assets/our_service_img.svg)",
-        companyFeature:"url('/assets/company_feature_img.svg')", 
+        // companyFeature:"url('/assets/company_feature_img.svg')", 
+        companyFeature: "linear-gradient(to right, rgb(3 45 95 / 92%) 0%, rgb(3 45 95 / 55%) 100%, rgba(9, 18, 66, 0.8) 100%),url(/assets/company_feature_img.svg)",
+        designToGrow:
+        "linear-gradient(to right, rgb(3 45 95 / 92%) 0%, rgb(3 45 95 / 55%) 100%, rgba(9, 18, 66, 0.8) 100%), url(/assets/designtogrow_img.svg)",
 
         ImmegrationBanner:
           "linear-gradient(to right, rgb(3 45 95 / 92%) 0%, rgb(3 45 95 / 55%) 100%, rgba(9, 18, 66, 0.8) 100%), url(/assets/immagration_img.svg)",
