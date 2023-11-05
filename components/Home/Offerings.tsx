@@ -61,37 +61,40 @@ const OfferingsArr: offeringDetails[] = [
 const Offerings = () => {
   return (
     <div>
-      <section className="bg-white mt-56 md:mt-0 dark:bg-gray-900 py-4  mx-auto max-w-screen-xl lg:py-16">
+      <section className="bg-white mt-20 border md:mt-0 dark:bg-gray-900 py-2 mx-auto max-w-screen-xl lg:py-16">
         <div>
-          <div className="bg-gray-50 dark:bg-gray-800  dark:border-gray-700 rounded-lg p-3 md:p-12 mb-2">
-            <a data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
-            data-aos-duration="2000"
+          <div className="bg-gray-50 dark:bg-gray-800  dark:border-gray-700 rounded-lg p-3 md:p-2 mb-2">
+            <a
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-duration="500"
               href="#"
               className=" text-blue-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-blue-400 mb-2"
             >
               Offerings
             </a>
-            <h1 data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
-            data-aos-duration="2000" className="text-gray-900 dark:text-white text-2xl md:text-5xl font-medium mb-2">
+            <h1
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-duration="800"
+              className="text-gray-900 dark:text-white text-2xl md:text-5xl font-medium mb-2"
+            >
               For all your study abroad needs
             </h1>
-            <p data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
-            data-aos-duration="2000" className=" md:text-2xl text-xl font-normal text-gray-500 dark:text-gray-400 mb-6">
+            <p
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-duration="1000"
+              className=" md:text-2xl text-xl font-normal text-gray-500 dark:text-gray-400 mb-6"
+            >
               WooCommerce is a customizable, open-source eCommerce platform
               built on WordPress. Get started quickly and make your way.
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            ssdfd
-          </div>
         </div>
-        <div >
+        <div>
           {OfferingsArr.map((item: offeringDetails, index: number) => (
-            <div               data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom" >
+            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
               <OfferingCard key={index} details={item} index={index} />
             </div>
           ))}
@@ -117,7 +120,12 @@ const OfferingCard: React.FC<OfferingCardProps> = ({ key, details, index }) => {
         index % 2 === 1 ? "md:flex-row-reverse " : "md:flex-row"
       } `}
     >
-      <div className="w-full mx-auto">
+      <div
+        className="w-full mx-auto"
+        data-aos="fade-up"
+        // data-aos-anchor-placement="bottom-bottom"
+        data-aos-duration="600"
+      >
         <Image
           width={540}
           height={540}
@@ -138,18 +146,31 @@ const OfferingCard: React.FC<OfferingCardProps> = ({ key, details, index }) => {
           <div className="bg-gray-50 dark:bg-gray-800  dark:border-gray-700 rounded-lg p-9 md:mb-8">
             <a
               href="#"
+              data-aos="fade-up"
+              // data-aos-anchor-placement="bottom-bottom"
+              data-aos-duration="800"
               className=" text-blue-800 text-sm font-medium inline-flex items-center  rounded-md dark:bg-gray-700 dark:text-blue-400 mb-2"
             >
               {details.label}
             </a>
-            <h4 className="heading4  text-gray-900 dark:text-white text-xl md:text-3xl font-normal mb-2">
+            <h4
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              className="heading4  text-gray-900 dark:text-white text-xl md:text-3xl font-normal mb-2"
+            >
               {details.title}
             </h4>
-            <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-6">
+            <p
+              data-aos="fade-up"
+              data-aos-duration="1200"
+              className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-6"
+            >
               {details.content}
             </p>
             <button
               type="button"
+              data-aos="fade-up"
+              data-aos-duration="1400"
               className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               {details.btnTxt}

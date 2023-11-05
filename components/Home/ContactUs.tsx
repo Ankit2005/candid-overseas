@@ -6,9 +6,9 @@ const ContactUs = () => {
     <section className="bg-white dark:bg-gray-900 p-4  mx-auto max-w-screen-xl lg:py-16">
       <div className="flex gap-10">
         <div
-        data-aos="fade-up"
-        data-aos-anchor-placement="bottom-bottom"
-        data-aos-duration="2000" 
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+          data-aos-duration="2000"
           className="w-full-e hidden md:block md:w-120 lg:w-240 relative"
         >
           <Image

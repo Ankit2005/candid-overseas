@@ -13,25 +13,44 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   description,
 }) => {
   return (
-    
-    <div className="group bg-white rounded-lg overflow-hidden shadow-md hover:bg-[#0E0146] hover:text-white transition duration-300 ease-in-out">
-      <div className="flex items-center p-4">
-      <Image
-  src={logoUrl}
-  alt={title}
-  width={48} // Set your desired width here
-  height={48} // Set your desired height here
-  className="bg-[#F4EBFF] p-2 rounded-lg"
-/>
+    <div
+      data-aos="fade-up"
+      data-aos-anchor-placement="bottom-bottom"
+      data-aos-duration="1200"
+      className="group bg-white rounded-lg overflow-hidden shadow-md hover:bg-[#0E0146] hover:text-white transition duration-300 ease-in-out"
+    >
+      <div
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+        data-aos-duration="1000"
+        className="flex items-center p-4"
+      >
+        <Image
+          src={logoUrl}
+          alt={title}
+          width={48} // Set your desired width here
+          height={48} // Set your desired height here
+          className="bg-[#F4EBFF] p-2 rounded-lg"
+        />
 
         <h2 className="text-xl font-semibold text-gray-700 group-hover:text-white ml-8">
           {title}
         </h2>
       </div>
-      <p className="text-gray-400 p-4 group-hover:text-white">{description}</p>
+      <p
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+        data-aos-duration="1200"
+        className="text-gray-400 p-4 group-hover:text-white"
+      >
+        {description}
+      </p>
       <a
         href="#"
         className="border btn-primary inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white rounded-md my-4 ml-8"
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+        data-aos-duration="1400"
       >
         Read more
         <svg
@@ -103,23 +122,29 @@ const ServiceCards: React.FC = () => {
 
   return (
     <>
-        <section className="bg-center p-0 sm:p-8  lg:p-32 bg-no-repeat bg-heroBannerOne flex flex-col justify-center lg:items-start lg:justify-start dark:bg-gray-900">
-<div className="container mx-auto text-center" >
-
-    <h1 data-aos="fade-up"
+      <section className="bg-center p-0 sm:p-8  lg:p-32 bg-no-repeat bg-heroBannerOne flex flex-col justify-center lg:items-start lg:justify-start dark:bg-gray-900">
+        <div className="container mx-auto text-center">
+          <h1
+            data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
-            data-aos-duration="2000" className=" heading1 text-white ">Our Services</h1>
-</div>
-    <div  data-aos="zoom-in"
-          data-aos-anchor-placement="bottom-bottom"
-          data-aos-duration="1400" className="container mx-auto py-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {services.map((service, index) => (
-        <ServiceCard key={index} {...service} />
-      ))}
-    </div>
-    </section>
+            data-aos-duration="1200"
+            className=" heading1 text-white "
+          >
+            Our Services
+          </h1>
+        </div>
+        <div
+          // data-aos="fade-up"
+          // data-aos-anchor-placement="bottom-bottom"
+          // data-aos-duration="1400"
+          className="container mx-auto py-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+        >
+          {services.map((service, index) => (
+            <ServiceCard key={index} {...service} />
+          ))}
+        </div>
+      </section>
     </>
-
   );
 };
 

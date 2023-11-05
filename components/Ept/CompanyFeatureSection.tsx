@@ -26,7 +26,7 @@ const CompanyFeatureSection: React.FC = () => {
         <p
           data-aos="fade-up"
           data-aos-anchor-placement="bottom-bottom"
-          data-aos-duration="3000"
+          data-aos-duration="1000"
           className="text-lg text-center text-white"
         >
           We believe scaling start-ups require a radically different kind of
@@ -35,7 +35,7 @@ const CompanyFeatureSection: React.FC = () => {
         <h4
           data-aos="fade-up"
           data-aos-anchor-placement="bottom-bottom"
-          data-aos-duration="2000"
+          data-aos-duration="1200"
           className=" text-2xl text-center text-white font-bold  mb-4"
         >
           I Want Company Feature
@@ -46,23 +46,37 @@ const CompanyFeatureSection: React.FC = () => {
             <div
               key={index}
               data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
-            data-aos-duration={index * 400}
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-duration={900 * index}
               className="bg-white p-4 rounded-lg shadow-lg mt-4 w-auto max-w-sm"
             >
-<Image
-  src="/assets/mechanic.svg"
-  alt="mechanic"
-  width={48} // Set your desired width here
-  height={48} // Set your desired height here
-  className="bg-bgBlue p-3 rounded-full my-3"
-/>
+              <Image
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration={1000 * index}
+                src="/assets/mechanic.svg"
+                alt="mechanic"
+                width={48} // Set your desired width here
+                height={48} // Set your desired height here
+                className="bg-bgBlue p-3 rounded-full my-3"
+              />
 
-              <h4 className="text-xl text-black font-semibold my-2">
+              <h4
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration={index * 400}
+                className="text-xl text-black font-semibold my-2"
+              >
                 {feature.title}
               </h4>
               <ul className="list-disc text-secondaryText ml-4">
-                <li>{feature.description}</li>
+                <li
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-bottom"
+                  data-aos-duration={index * 600}
+                >
+                  {feature.description}
+                </li>
               </ul>
             </div>
           ))}

@@ -46,13 +46,13 @@ module.exports = {
           200: "#161B22",
           300: "#1F2428",
           400: "#242C38",
-          500:"#211F20"
+          500: "#211F20",
         },
         grey: {
           100: "#969BA5",
           200: "#55616D",
-        300:"#909090",
-        400:"#666666",
+          300: "#909090",
+          400: "#666666",
         },
         white: {
           DEFAULT: "#FFF",
@@ -60,22 +60,27 @@ module.exports = {
           500: "#A4B8D5",
           800: "#D0DFFF",
         },
-        secondaryText:"#211F20",
-        blue:"#527CEB",
+        secondaryText: "#211F20",
+        blue: "#527CEB",
         purple: "#8C7CFF",
         pink: "#ED5FBD",
         violet: "#F16565",
         orange: "#FF964B",
         darkBlueNav: "#0E0146",
         darkBlue: "#002777",
-        lightRed:"#E9F3FF",
-         bgBlue:"#1E47FF",
-         lightPurple:"#562383",
-         lightBlue:"#F1EEFF",
-         mediumRed:"#FFDBDD",
-         redHeading:"#EE1A24",
-         
-        
+        lightRed: "#E9F3FF",
+        bgBlue: "#1E47FF",
+        lightPurple: "#562383",
+        lightBlue: "#F1EEFF",
+        mediumRed: "#FFDBDD",
+        redHeading: "#EE1A24",
+
+        lightRed: "#FFDBDC",
+        bgBlue: "#1E47FF",
+        lightPurple: "#562383",
+        lightBlue: "#F1EEFF",
+        mediumRed: "#FFDBDD",
+        redHeading: "#EE1A24",
       },
       backgroundColor: {
         primary: "linear-gradient(to right, #0E149D, #6E0C80, #EE1B23)",
@@ -87,10 +92,12 @@ module.exports = {
         footer: "url('/assets/footer.svg')",
         boy: "url('/assets/boy.svg')",
         ourServicesImg: "url(/assets/our_service_img.svg)",
-        // companyFeature:"url('/assets/company_feature_img.svg')", 
-        companyFeature: "linear-gradient(to right, rgb(3 45 95 / 92%) 0%, rgb(3 45 95 / 55%) 100%, rgba(9, 18, 66, 0.8) 100%),url(/assets/company_feature_img.svg)",
+        // companyFeature:"url('/assets/company_feature_img.svg')",
+        companyFeature:
+          "linear-gradient(to right, rgb(3 45 95 / 92%) 0%, rgb(3 45 95 / 55%) 100%, rgba(9, 18, 66, 0.8) 100%),url(/assets/company_feature_img.svg)",
         designToGrow:
-        "linear-gradient(to right, rgb(3 45 95 / 92%) 0%, rgb(3 45 95 / 55%) 100%, rgba(9, 18, 66, 0.8) 100%), url(/assets/designtogrow_img.svg)",
+          "linear-gradient(to right, rgb(3 45 95 / 92%) 0%, rgb(3 45 95 / 55%) 100%, rgba(9, 18, 66, 0.8) 100%), url(/assets/designtogrow_img.svg)",
+        //companyFeature: "url('/assets/company_feature_img.svg')",
 
         ImmegrationBanner:
           "linear-gradient(to right, rgb(3 45 95 / 92%) 0%, rgb(3 45 95 / 55%) 100%, rgba(9, 18, 66, 0.8) 100%), url(/assets/immagration_img.svg)",
