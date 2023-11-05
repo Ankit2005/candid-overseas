@@ -74,13 +74,6 @@ module.exports = {
         lightBlue: "#F1EEFF",
         mediumRed: "#FFDBDD",
         redHeading: "#EE1A24",
-
-        lightRed: "#FFDBDC",
-        bgBlue: "#1E47FF",
-        lightPurple: "#562383",
-        lightBlue: "#F1EEFF",
-        mediumRed: "#FFDBDD",
-        redHeading: "#EE1A24",
       },
       backgroundColor: {
         primary: "linear-gradient(to right, #0E149D, #6E0C80, #EE1B23)",
