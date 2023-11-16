@@ -19,7 +19,7 @@ const Footer = () => {
         <Image
           src="/assets/footer.svg" // Replace with your image path
           alt="Footer Image"
-          width={1200} // Set the desired width
+          width={"100"} // Set the desired width
           height={800} // Set the desired height
           layout="responsive" // Use "responsive" to maintain aspect ratio
         />
@@ -27,10 +27,17 @@ const Footer = () => {
       <div className="max-w-screen-xl  mx-auto md:m-4 sm:px-6 lg:px-2">
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-3">
           <div>
-            <img src="#" className="mr-5 h-6 sm:h-9" alt="logo" />
+            <Link href="/">
+              <Image
+                src="/assets/candid_logo.svg"
+                className="rounded-md"
+                width={90}
+                height={90}
+                alt="candid_logo"
+              />
+            </Link>
             <p className="max-w-xs mt-4 text-sm text-white">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-              accusantium.
+              Your success is our passion
             </p>
             <div className="flex mt-8 space-x-6 text-white">
               <a

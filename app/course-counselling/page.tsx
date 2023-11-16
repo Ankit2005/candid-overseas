@@ -1,30 +1,23 @@
-
 import Gallery from "@/components/CourseCounSelling/Gallery";
 import ProcessSection from "@/components/CourseCounSelling/ProcessSection";
 import Footer from "@/components/Footer";
 
-
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Shared/Hero";
-
-
-
 
 const Page = async () => {
   // const resourcesPlaylist = await getResourcesPlaylist();
   // h-[calc(100vh - 400px)]
   return (
     <main className="">
+      <Navbar />
+      {/* <TransportImage/> */}
+      <Hero />
+      <ProcessSection />
+      <Gallery />
 
-    <Navbar/>
-  {/* <TransportImage/> */}
-  <Hero/>
-  <ProcessSection/>
-  <Gallery/>
-  
-    <Footer/>
+      <Footer />
     </main>
-
   );
 };
 

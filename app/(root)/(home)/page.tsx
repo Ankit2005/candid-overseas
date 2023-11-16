@@ -27,14 +27,14 @@ const Page = async ({ searchParams }: Props) => {
   // h-[calc(100vh - 400px)]
   return (
     <main className="d ">
-      <section className="nav-padding w-full">
-        <Hero />
-        <StudyCard />
-        <Services />
-        <Offerings />
-        <ImmigrationVisa />
-        <ContactUs />
-      </section>
+      {/* <section className="nav-padding w-full"> */}
+      <Hero />
+      <StudyCard />
+      <Services />
+      <Offerings />
+      <ImmigrationVisa />
+      <ContactUs />
+      {/* </section> */}
     </main>
   );
 };
