@@ -10,18 +10,19 @@ interface serviceDetails {
 const services: serviceDetails[] = [
   {
     img: "/assets/servicesIcons/one.svg",
-    title: "Web Development",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Student Visa",
+    content: "Plan your academic journey with expert visa guidance.",
   },
   {
     img: "/assets/servicesIcons/one.svg",
-    title: "Web Development",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Work Visa",
+    content: "Raise your career prospects with seamless work visa solutions.",
   },
   {
     img: "/assets/servicesIcons/one.svg",
-    title: "Web Development",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "IELTS Preparation",
+    content:
+      "Enhance your language proficiency and excel in the IELTS examination with our comprehensive preparation services.",
   },
 ];
 

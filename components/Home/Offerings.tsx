@@ -34,26 +34,28 @@ const OfferingsArr: offeringDetails[] = [
     label: "Shortlisting ✅",
     title: "Find your Right-Fit Universities and Courses",
     content:
-      "Share your profile, and let our tools recommend the best-matched universities and courses for you",
+      "Share your academic background, and allow our tools to curate personalized suggestions for universities and courses that perfectly align with your aspirations.",
     btnTxt: "Try AI University Course Finder",
     btnLink: "/",
   },
   {
     img: "/assets/offering_img_4.svg",
-    label: "Shortlisting ✅",
-    title: "Find your Right-Fit Universities and Courses",
+    label: "University Shortlisting ✅",
+    title:
+      "Discover Tailored Recommendations for Your Ideal Universities and Courses",
     content:
-      "Share your profile, and let our tools recommend the best-matched universities and courses for you",
-    btnTxt: "Try AI University Course Finder",
+      "Effortlessly find your perfect fit by sharing your profile. Our advanced tools will expertly recommend universities and courses that align seamlessly with your academic goals.",
+    btnTxt: "Explore with AI University Course Finder",
     btnLink: "/",
   },
   {
     img: "/assets/offering_img_5.svg",
-    label: "Shortlisting ✅",
-    title: "Find your Right-Fit Universities and Courses",
+    label: "University Shortlisting ✅",
+    title:
+      "Explore Tailored Recommendations for Your Perfect Universities and Courses",
     content:
-      "Share your profile, and let our tools recommend the best-matched universities and courses for you",
-    btnTxt: "Try AI University Course Finder",
+      "Leverage our AI-driven tools by sharing your profile, and receive personalized recommendations for the best-matched universities and courses that align with your academic journey.",
+    btnTxt: "Discover Now with AI University Course Finder",
     btnLink: "/",
   },
 ];

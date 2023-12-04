@@ -52,35 +52,35 @@ const Card: React.FC<CardProps> = ({
     </figure>
   );
 };
+
 const cardsData = [
   {
     quote:
-      "Etiam sed vulputate nisl, eu elementum arcu. Vivamus dignissim tortor in tellus dictum pellentesque. ",
+      "Benefit from our team's extensive experience, providing students with unmatched guidance in navigating the complexities of international work visas.",
     profileImageUrl: "/assets/designtogrow1.svg",
     quoteAuthor: "Bonnie Green",
     authorImage: "/assets/learnman.svg",
     authorName: "Bonnie Green",
-    title: "UI/UX Design",
+    title: "Seasoned Experts",
   },
   {
     quote:
-      "Etiam sed vulputate nisl, eu elementum arcu. Vivamus dignissim tortor in tellus dictum pellentesque. ",
+      "We understand that each student's journey is unique; hence, our consultants offer personalized solutions to align with your specific career aspirations.",
     profileImageUrl: "/assets/designtogrow1.svg",
     quoteAuthor: "Bonnie Green",
     authorImage: "/assets/learnman.svg",
     authorName: "Bonnie Green",
-    title: "UI/UX Design",
+    title: "Personalized Approach",
   },
   {
     quote:
-      "Etiam sed vulputate nisl, eu elementum arcu. Vivamus dignissim tortor in tellus dictum pellentesque. ",
+      "Join a community of successful individuals who have trusted us with their work visa journey, and witness your dreams turning into reality.",
     profileImageUrl: "/assets/designtogrow1.svg",
     quoteAuthor: "Bonnie Green",
     authorImage: "/assets/learnman.svg",
     authorName: "Bonnie Green",
-    title: "UI/UX Design",
+    title: "Success Stories",
   },
-
   // Add more card data as needed
 ];
 
@@ -91,20 +91,16 @@ const DesignToGrow = () => {
       <section className="bg-center p-0 sm:p-8 w-full lg:p-32  bg-no-repeat bg-designToGrow flex flex-col justify-center lg:items-start lg:justify-start dark:bg-gray-900">
         <div className="py-4 px-2 mx-auto max-w-screen-xl lg:py-16">
           <div className="grid grid-cols-1 md:grid-cols-3     lg:grid-cols-3 gap-4 mb-8  rounded-2xl shadow-sm  md:mb-12">
-            <div className="flex justify-start md:justify-end">
+            <div className="flex justify-center">
               <img
-                className="rounded-full h-3/4 items-center   "
+                className="rounded-full h-3/4 items-center"
                 src="/assets/design1.svg"
                 alt="profile picture"
               />
             </div>
 
-            <p className="text-white text-3xl lg:text-4xl">
-              Beautiful UI kit designed to grow your business.
-            </p>
-            <p className="text-white text-lg lg:text-2xl">
-              Bootstrap code with a well-organized Figma file to design &
-              develop your next websites in minutes.
+            <p className="text-white text-3xl lg:text-4xl w-full ">
+              Partner with the Leading Work Visa Consultants for Indian Students
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8  rounded-2xl shadow-sm  md:mb-12">

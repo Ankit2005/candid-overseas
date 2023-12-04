@@ -6,21 +6,21 @@ const studyCards = [
     img: "/assets/study_card_one.svg",
     title: "Study Visa",
     content:
-      "Add WooCommerce plugin to any WordPress site and set up a new store in minutes.",
+      "Seamlessly navigate the complex world of student visas with our expert guidance.",
     link: "",
   },
   {
     img: "/assets/study_card_three.svg",
     title: "Visit Visa",
     content:
-      "From subscriptions to gym classes to luxury cars, WooCommerce is fully customizable.",
+      "Transform your dreams into reality by exploring work opportunities abroad with our dedicated support.",
     link: "",
   },
   {
     img: "/assets/study_card_two.svg",
     title: "IELTS / Training",
     content:
-      "WooCommerce is one of the fastest-growing eCommerce communities. ",
+      "Empower your entrepreneurial spirit with our comprehensive guide to securing business visas",
     link: "",
   },
 ];
@@ -54,8 +54,8 @@ const StudyCard = () => {
               data-aos-duration="2600"
               className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-6"
             >
-              WooCommerce is a customizable, open-source eCommerce platform
-              built on WordPress. Get started quickly and make your way.
+              Explore, dream, and succeed with our expert study abroad
+              consultants.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -28,7 +28,10 @@ const Page = async ({ searchParams }: Props) => {
   return (
     <main className="d ">
       {/* <section className="nav-padding w-full"> */}
-      <Hero />
+      <Hero
+        title={`Discover, Dream, and Achieve With Expert Study  Abroad
+            Consultants`}
+      />
       <StudyCard />
       <Services />
       <Offerings />

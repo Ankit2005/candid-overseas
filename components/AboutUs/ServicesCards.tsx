@@ -45,7 +45,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
       >
         {description}
       </p>
-      <a
+      {/* <a
         href="#"
         className="border btn-primary inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white rounded-md my-4 ml-8"
         data-aos="fade-up"
@@ -68,55 +68,63 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
             d="M1 5h12m0 0L9 1m4 4L9 9"
           />
         </svg>
-      </a>
+      </a> */}
     </div>
   );
 };
 
 const ServiceCards: React.FC = () => {
   // Define an array of service data
+
   const services: ServiceCardProps[] = [
     {
       logoUrl: "/assets/consulation.svg",
-      title: "Consultation",
+      title: "Student Visa",
       description:
-        "Canada is a country of plentiful opportunities. Education in Canada opens your door to a brilliant future",
+        "Embark on your academic journey with expert guidance for seamless student visa solutions.",
     },
     {
       logoUrl: "/assets/consulation.svg",
-      title: "Consultation",
+      title: "Work Visa",
       description:
-        "Canada is a country of plentiful opportunities. Education in Canada opens your door to a brilliant future",
+        "Elevate your career prospects with personalized assistance for navigating work visa opportunities.",
     },
-
     {
       logoUrl: "/assets/consulation.svg",
-      title: "Consultation",
+      title: "Permanent Residency",
       description:
-        "Canada is a country of plentiful opportunities. Education in Canada opens your door to a brilliant future",
+        "Establish enduring connections with your dream destination through our tailored permanent residency services.",
     },
-
     {
       logoUrl: "/assets/consulation.svg",
-      title: "Consultation",
+      title: "Business Visa",
       description:
-        "Canada is a country of plentiful opportunities. Education in Canada opens your door to a brilliant future",
+        "Transform your entrepreneurial dreams into global success with our strategic business visa guidance.",
     },
-
     {
       logoUrl: "/assets/consulation.svg",
-      title: "Consultation",
+      title: "Investor Visa",
       description:
-        "Canada is a country of plentiful opportunities. Education in Canada opens your door to a brilliant future",
+        "Navigate the migration landscape seamlessly with our expert guidance on investor visas.",
     },
-
     {
       logoUrl: "/assets/consulation.svg",
-      title: "Consultation",
+      title: "IELTS/PTE Coaching",
       description:
-        "Canada is a country of plentiful opportunities. Education in Canada opens your door to a brilliant future",
+        "Master the art of language proficiency with personalized coaching for IELTS/PTE success.",
     },
-
+    {
+      logoUrl: "/assets/consulation.svg",
+      title: "Course Counseling",
+      description:
+        "Explore a diverse range of courses tailored to your aspirations through expert counseling services.",
+    },
+    {
+      logoUrl: "/assets/consulation.svg",
+      title: "Scholarship Counseling",
+      description:
+        "Unlock financial scholarship opportunities and pave the way for a rewarding academic journey.",
+    },
     // Repeat this structure for additional service cards
   ];
 

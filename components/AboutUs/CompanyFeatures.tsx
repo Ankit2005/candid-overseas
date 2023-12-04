@@ -13,19 +13,19 @@ const CompanyFeatures: React.FC = () => {
       logoUrl: "/assets/our_vision.svg",
       title: "Our Vision",
       description:
-        "A complete set of tools to enable marketing teams to curate, personalize, contextualize, send, integrate, and track campaigns - no coding required.",
+        "Empower Indian students with the global education consultation they need, fostering a community of ambitious individuals prepared to thrive on the world stage.",
     },
     {
       logoUrl: "/assets/our_mission.svg",
       title: "Our Mission",
       description:
-        "A complete set of tools to enable marketing teams to curate, personalize, contextualize, send, integrate, and track campaigns - no coding required.",
+        "Guide aspiring students, leading them to academic success on an international scale, and becoming the go-to consultancy for unlocking the doors to global educational opportunities.",
     },
     {
       logoUrl: "/assets/our_value.svg",
       title: "Our Value",
       description:
-        "A complete set of tools to enable marketing teams to curate, personalize, contextualize, send, integrate, and track campaigns - no coding required.",
+        "Grounded in integrity, transparency, and excellence, our values are the foundation of Candid - Study Abroad Consultants, guaranteeing dedicated commitment to the success and satisfaction of our students in every service we provide.",
     },
   ];
 
@@ -38,7 +38,7 @@ const CompanyFeatures: React.FC = () => {
           data-aos-duration="1000"
           className="heading1 text-3xl font-semibold"
         >
-          I want company feature
+          Crafting Our Mission, Vision, and Values A Blueprint for Excellence
         </h1>
         <p
           data-aos="fade-up"
@@ -46,8 +46,7 @@ const CompanyFeatures: React.FC = () => {
           data-aos-duration="1200"
           className="text-gray-600 mt-2"
         >
-          We believe scaling startups require a radically different kind of
-          agency
+          Unlocking Global Opportunities
         </p>
       </div>
 

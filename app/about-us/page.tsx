@@ -14,12 +14,12 @@ const Page = async () => {
     <main className="">
       <Navbar />
 
-      <Hero />
+      <Hero title={`Get to Know About Your Premier Study Abroad Consultants`} />
       <LogisticsSection />
-      <CompanyFeatures/>
-      <CityInfo/>
-      <ServiceCards/>
-      <Team/>
+      <CompanyFeatures />
+      <CityInfo />
+      <ServiceCards />
+      <Team />
 
       <Footer />
     </main>

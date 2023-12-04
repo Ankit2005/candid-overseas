@@ -10,7 +10,7 @@ const flags = [
   "/assets/flags/flag_six.svg",
 ];
 
-const Hero = () => {
+const Hero = ({ title }: any) => {
   return (
     <section className="bg-center p-0 sm:p-8  lg:p-32 h-[100vh] bg-no-repeat bg-heroBannerOne flex flex-col justify-center lg:items-start lg:justify-start dark:bg-gray-900">
       <div className="py-8 w-[100%] md:w-[90%] lg:w-[70%] px-4 mx-auto-e max-w-screen-xl lg:py-16">
@@ -21,7 +21,7 @@ const Hero = () => {
             data-aos-duration="2000"
             className="text-white   dark:text-white text-4xl md:text-5xl lg:text-6xl  font-medium mb-2"
           >
-            Building exactly the eCommerce <br /> website you want.
+            {title}
           </h1>
 
           <a
@@ -31,7 +31,7 @@ const Hero = () => {
             data-aos-duration="3000"
             className="border btn-primary inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white rounded-full mt-4"
           >
-            Start a New Store
+            Book Consultation
           </a>
         </div>
       </div>

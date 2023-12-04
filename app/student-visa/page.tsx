@@ -12,7 +12,7 @@ const Page = async () => {
   return (
     <main className="">
       <Navbar />
-      <Hero />
+      <Hero title="Empower Your Global Education Journey with Expert Student Visa Consulting" />
       <IdentityCard />
       <CountryStudentDetail />
       <WorkAbout />
