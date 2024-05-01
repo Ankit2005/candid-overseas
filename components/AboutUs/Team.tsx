@@ -50,11 +50,11 @@ const Team: React.FC = () => {
         />
 
         {/* Card 2 (Duplicate structure for additional cards) */}
-        <TeamMemberCard
-          name="Nirav Bharwad"
+        {/* <TeamMemberCard
+          name=""
           role=""
           imageUrl="/assets/person_image.svg"
-        />
+        /> */}
 
         {/* Card 3 (Duplicate structure for additional cards) */}
       </div>

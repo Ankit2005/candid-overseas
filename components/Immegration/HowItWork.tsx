@@ -1,76 +1,106 @@
-import React from 'react';
+import React from "react";
 
 const HowItWork: React.FC = () => {
   return (
     <div className="bg-lightRed text-white my-2 md:my-6 p-4">
       <div className="container mx-auto">
-        {/* How It Works */}
-        <div className="mb-8">
-          <h1  data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
-            data-aos-duration="2000" className="text-3xl font-bold text-secondaryText">How It Works</h1>
-          <p  data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
-            data-aos-duration="2000" className="text-lg text-grey-300">
-            Duis semper lacus scelerisque, aliquam leo quis, porttitor leo. Etiam
-            lobortis dapibus libero vel porttitor. Nulla tempor elit nec feugiat
-            tempus. Phasellus at quam id elit hendrerit semper feugiat id nunc.
-            Morbi quis justo velit. Duis semper lacus scelerisque, aliquam leo
-            quis, porttitor leo. Fusce lectus ex, pretium efficitur suscipit sed,
-            faucibus vel elit. Integer adipiscing erat eget risus sollicitudin
-            pellentesque non erat. Maecenas nibh dolor malesuada sagittis accumsan
-            ipsum. Pellentesque ultrices ultrices sapien, nec tincidunt nunc posuere.
-          </p>
-          <ol  data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
-            data-aos-duration="2000" className="list-disc text-grey-300 pl-2 mt-4">
-            <li>Self Assessment</li>
-            <li>Submit an Expression of Interest (EOI)</li>
-            <li>Receive an Invitation to Apply (ITA)</li>
-            <li>
-              If you have 160 points or more you’ll be selected from the EOI pool
-              and may be sent an ITA
-            </li>
-            <li>Submit a resident application</li>
-            <li>if successful, you’ll be issued a resident visa</li>
-          </ol>
-        </div>
+        {/* Why Immigration Consultation Matters
+         */}
 
-        {/* Long Term Skill Shortage List */}
         <div className="mb-8">
-          <h2  data-aos="fade-up"
+          <h1
+            data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
-            data-aos-duration="2000" className="text-3xl font-bold text-secondaryText">Long Term Skill Shortage List</h2>
-          <p  data-aos="fade-up"
+            data-aos-duration="2000"
+            className="text-3xl font-bold text-secondaryText my-4"
+          >
+            Why Immigration Consultation Matters
+          </h1>
+          <p
+            data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
-            data-aos-duration="2000" className="text-lg text-grey-300">
-            Duis semper lacus scelerisque, aliquam leo quis, porttitor leo. Etiam
-            lobortis dapibus libero vel porttitor. Nulla tempor elit nec feugiat
-            tempus. Phasellus at quam id elit hendrerit semper feugiat id nunc.
-            Morbi quis justo velit. Duis semper lacus scelerisque, aliquam leo
-            quis, porttitor leo. Fusce lectus ex, pretium efficitur suscipit sed,
-            faucibus vel elit. Integer adipiscing erat eget risus sollicitudin
-            pellentesque non erat. Maecenas nibh dolor malesuada sagittis accumsan
-            ipsum. Pellentesque ultrices ultrices sapien, nec tincidunt nunc posuere.
+            data-aos-duration="2000"
+            className="text-lg text-grey-300 mb-4"
+          >
+            Starting a journey to a foreign land is a big step with both
+            opportunities and challenges. Our immigration consultation services
+            act as a guide, helping you through this transformative process. We
+            understand the complexities and uncertainties involved in
+            immigrating, and our goal is to provide you with the support and
+            expertise needed to navigate through them successfully.
+          </p>
+          <p
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="2000"
+            className="text-lg text-grey-300 mb-4"
+          >
+            At Candid Overseas, we offer more than just advice; we offer
+            personalized guidance tailored to your unique circumstances. Our
+            experienced consultants possess in-depth knowledge of immigration
+            policies, allowing us to provide you with accurate and up-to-date
+            information. We work closely with you to understand your goals and
+            develop a strategic plan to achieve them.
+          </p>
+          <h2
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="2000"
+            className="text-xl font-semibold text-secondaryText mb-2"
+          >
+            Our Immigration Consultation Services Include:
+          </h2>
+          <ol
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="2000"
+            className="list-disc text-grey-300 pl-6 mb-4"
+          >
+            <li>
+              Personalized Guidance: Receive one-on-one support tailored to your
+              specific needs and circumstances.
+            </li>
+            <li>
+              In-depth Knowledge of Policies: Benefit from our consultants'
+              expertise in immigration laws and regulations.
+            </li>
+            <li>
+              Navigate Legal Complexities: We'll help you understand and
+              navigate through the legal complexities of immigration processes.
+            </li>
+            <li>
+              Strategic Planning: Develop a comprehensive plan to achieve your
+              immigration goals effectively and efficiently.
+            </li>
+          </ol>
+          <p
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="2000"
+            className="text-lg text-grey-300"
+          >
+            Let us be your partner in your immigration journey. Contact Candid
+            Overseas today to schedule a consultation and take the first step
+            towards realizing your dreams.
           </p>
         </div>
 
         {/* Video Section */}
-        <div className="mb-8">
-         
-          <div  data-aos="zoom-in"
-          data-aos-anchor-placement="bottom-bottom"
-          data-aos-duration="1400" className="aspect-w-16 aspect-h-9 mt-4">
+        {/* <div className="mb-8">
+          <div
+            data-aos="zoom-in"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="1400"
+            className="aspect-w-16 aspect-h-9 mt-4"
+          >
             <iframe
-             src="https://www.youtube.com/embed/eT3IEmIonMY?si=sR6_9KO8Tqs9p1LD"
+              src=""
               title="Your Video"
               className="w-full h-full"
               allowFullScreen
             ></iframe>
-         
           </div>
-
-        </div>
+        </div> */}
       </div>
     </div>
   );

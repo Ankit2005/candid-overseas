@@ -40,36 +40,39 @@ const Card: React.FC<CardProps> = ({
 };
 const cardsData = [
   {
-    quote: "Podcasting operational change management  workflow. ",
+    title: "Tailored Guidance",
     profileImageUrl: "/assets/process.svg",
 
     authorImage: "/assets/learnman.svg",
     authorName: "Bonnie Green",
-    title: "Consistency",
+    quote: "Receive personalized guidance crafted to your business aspirations",
   },
   {
-    quote: "Podcasting operational change management  workflow.        ",
+    title: "Global Network",
     profileImageUrl: "/assets/process.svg",
 
     authorImage: "/assets/learnman.svg",
     authorName: "Bonnie Green",
-    title: "Improvement",
+    quote:
+      "Access our vast network for essential insights and connections to kickstart your business.",
   },
   {
-    quote: "Podcasting operational change management  workflow.",
+    title: "Proven Track Record",
     profileImageUrl: "/assets/process.svg",
 
     authorImage: "/assets/learnman.svg",
     authorName: "Bonnie Green",
-    title: "Branching",
+    quote:
+      "Helping entrepreneurs successfully navigate the complexities of global business visas.",
   },
   {
-    quote: "Podcasting operational change management  workflow.",
+    quote:
+      "From documentation to legal formalities, we provide end-to-end support.",
     profileImageUrl: "/assets/process.svg",
 
     authorImage: "/assets/learnman.svg",
     authorName: "Bonnie Green",
-    title: "Company Growth",
+    title: "Dedicated Support",
   },
 
   // Add more card data as needed
@@ -87,12 +90,13 @@ const Process = () => {
               Proccess
             </p>
             <h1 className="text-3xl font-bold my-4 ">
-              There have some easy steps to join with us!
+              Candid Business Visa Consultancy Services
             </h1>
             <p className="text-[#595566] my-6">
-              Leverage agile frameworks to provide a robust synopsis for high
-              level overviews. Iterative approaches to corporate strategy foster
-              collaborative thinking to further the overall value proposition.
+              Our Business Visa Consultancy Services are designed to empower
+              Indian entrepreneurs with the knowledge and assistance needed to
+              turn their global business dreams into reality. We offer three key
+              services tailored to your specific needs.
             </p>
             <hr className="mt-4 border-gray-400 border-t-2"></hr>
             <div className="flex my-4 space-x-8">
@@ -102,10 +106,13 @@ const Process = () => {
                 </p>
               </div>
               <div>
-                <p className="font-semibold text-xl">Setup Account</p>
+                <p className="font-semibold text-xl">
+                  Business Visa Eligibility Assessment
+                </p>
                 <p>
-                  We understand the importance of approaching each work
-                  integrally.
+                  Evaluate your eligibility for a business visa with our
+                  thorough assessment, ensuring a strong foundation for your
+                  application.
                 </p>{" "}
               </div>
             </div>
@@ -117,10 +124,12 @@ const Process = () => {
                 </p>
               </div>
               <div>
-                <p className="font-semibold text-xl">Setup Account</p>
+                <p className="font-semibold text-xl">
+                  Documentation Assistance
+                </p>
                 <p>
-                  We understand the importance of approaching each work
-                  integrally.
+                  Streamline the documentation process with our expert
+                  assistance, reducing the risk of errors and delays.
                 </p>{" "}
               </div>
             </div>
@@ -132,10 +141,13 @@ const Process = () => {
                 </p>
               </div>
               <div>
-                <p className="font-semibold text-xl">Setup Account</p>
+                <p className="font-semibold text-xl">
+                  Guided Application Process
+                </p>
                 <p>
-                  We understand the importance of approaching each work
-                  integrally.
+                  Navigate the complex application process confidently with our
+                  step-by-step guidance, enhancing your chances of a successful
+                  visa approval.
                 </p>{" "}
               </div>
             </div>
@@ -148,20 +160,20 @@ const Process = () => {
             </p> */}
             <p
               style={{ letterSpacing: "7px" }}
-              className="text-black uppercase bg-[#FFCC4A]  my-4 px-2 rounded-lg w-9/12"
+              className="text-black uppercase bg-[#FFCC4A]  my-4 px-2 rounded-lg w-12/12"
             >
-              Growing with our clients
+              Expertise, Dedication, and Success
             </p>
-            <h1 className="text-3xl font-bold my-4 ">30 Years of Experience</h1>
+            <h1 className="text-3xl font-bold my-4 ">
+              Why Partner with Us for Your Business Visa Journey?
+            </h1>
             <p className="text-[#595566]">
-              Capitalize on low hanging fruit to identify a ballpark value added
-              activity beta test. Override the digital divide with additional
-              from DevOps.
-            </p>
-            <p className="text-[#595566] my-4">
-              Leverage agile frameworks to provide a robust synopsis for high
-              level overviews. Iterative approaches to corporate strategy foster
-              collaborative thinking to further the overall value proposition.
+              The international business venture requires careful guidance and
+              expertise. At Candid, we take pride in being the preferred choice
+              for Indian entrepreneurs seeking to establish businesses abroad.
+              Our team of seasoned business visa consultants is dedicated to
+              ensuring your success, offering unparalleled support at every step
+              of the journey
             </p>
             <div className="grid grid-cols-1  lg:grid-cols-2 gap-16 mb-8  md:mb-12 ">
               {cardsData.map((card, index) => (

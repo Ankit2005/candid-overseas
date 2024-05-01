@@ -1,7 +1,4 @@
-
-
 import Footer from "@/components/Footer";
-
 
 import Navbar from "@/components/Navbar";
 import BestInWorld from "@/components/Pte/BestInWorld";
@@ -12,30 +9,22 @@ import YourThrees from "@/components/Pte/YourThrees";
 
 import Hero from "@/components/Shared/Hero";
 
-
-
-
 const Page = async () => {
   // const resourcesPlaylist = await getResourcesPlaylist();
   // h-[calc(100vh - 400px)]
   return (
     <main className="">
+      <Navbar />
+      {/* <TransportImage/> */}
+      <Hero title="Strive for Excellence: Achieve PTE Success with Dedicated PTE Coaching" />
+      {/* <PteHero/>   */}
+      <YourThrees />
+      <BestInWorld />
+      <ProfessionalServices />
+      <PteService />
 
-    <Navbar/>
-  {/* <TransportImage/> */}
-  <Hero/>
-  {/* <PteHero/>   */}
-  <YourThrees/>
-  <BestInWorld/>
-  <ProfessionalServices/>
-  <PteService/>
-  
- 
-
-  
-    <Footer/>
+      <Footer />
     </main>
-
   );
 };
 

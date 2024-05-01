@@ -20,9 +20,9 @@ const FacilityItem: React.FC<FacilityProps> = ({ key, imageSrc, title }) => (
       <Image
         src={imageSrc}
         alt="cube"
-        width={36} // Set your desired width here
-        height={36} // Set your desired height here
-        className="h-9 w-9"
+        width={56} // Set your desired width here
+        height={56} // Set your desired height here
+        className="h-9-e w-9-e"
       />
     </div>
 
@@ -36,22 +36,22 @@ const FacilityItem: React.FC<FacilityProps> = ({ key, imageSrc, title }) => (
 const OurFacilities: React.FC = () => {
   const facilitiesData: FacilityProps[] = [
     {
-      key: 0,
+      key: 1,
       imageSrc: "/assets/four_square.svg",
       title:
-        "Teachers don’t get lost in the grid view Have a dedicated Podium space.",
+        "EPT consultants evaluate students' language skills and academic goals, laying the foundation for personalized guidance.",
     },
     {
-      key: 0,
+      key: 2,
       imageSrc: "/assets/two_square.svg",
       title:
-        "Teachers don’t get lost in the grid view Have a dedicated Podium space.",
+        "Tailored study plans are crafted to address individual learning needs and exam requirements, employing effective strategies for preparation.",
     },
     {
-      key: 0,
+      key: 3,
       imageSrc: "/assets/contact_three_person.svg",
       title:
-        "Teachers don’t get lost in the grid view Have a dedicated Podium space.",
+        "Consultants provide continuous support, offering resources, practice materials, and feedback to empower students for exam success and international academic pursuits.",
     },
     // Add more facility items here as needed
   ];
@@ -74,21 +74,21 @@ const OurFacilities: React.FC = () => {
 
       {/* Right side with content */}
       <div className="md:w-1/2 p-8">
-        <p
+        {/* <p
           data-aos="fade-up"
           data-aos-anchor-placement="bottom-bottom"
           data-aos-duration="800"
           className="text-xl text-lightPurple "
         >
           Our Facilities
-        </p>
+        </p> */}
         <h2
           data-aos="fade-up"
           data-aos-anchor-placement="bottom-bottom"
           data-aos-duration="900"
           className="text-2xl text-secondaryText font-bold"
         >
-          We provide a full range of global logistics solutions.
+          Why You Need an EPT Test Consultant?
         </h2>
 
         {/* Facility items */}

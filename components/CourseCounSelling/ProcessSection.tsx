@@ -17,11 +17,11 @@ const Card: React.FC<CardProps> = ({
 }) => {
   return (
     <div className="p-4 rounded-xl box-border border-white-500 shadow-lg">
-      <img
+      {/* <img
         className="rounded-full w-15 h-10"
         src={profileImageUrl}
         alt="profile picture"
-      />
+      /> */}
       <p className="font-bold text-xl my-2">{title}</p>
       <p className="text-[#595566]">{quote}</p>
     </div>
@@ -40,40 +40,39 @@ const Card: React.FC<CardProps> = ({
 };
 const cardsData = [
   {
-    quote: "Podcasting operational change management  workflow. ",
+    quote:
+      "Explore your interests and strengths to find the perfect academic pathway.",
     profileImageUrl: "/assets/process.svg",
-
-    authorImage: "/assets/learnman.svg",
-    authorName: "Bonnie Green",
-    title: "Consistency",
+    authorImage: "/assets/guide.svg",
+    authorName: "Course Counselor",
+    title: "Personalized Guidance",
   },
   {
-    quote: "Podcasting operational change management  workflow.        ",
+    quote:
+      "Discover a diverse range of courses tailored to your career aspirations.",
     profileImageUrl: "/assets/process.svg",
-
-    authorImage: "/assets/learnman.svg",
-    authorName: "Bonnie Green",
-    title: "Improvement",
+    authorImage: "/assets/guide.svg",
+    authorName: "Course Counselor",
+    title: "Course Exploration",
   },
   {
-    quote: "Podcasting operational change management  workflow.",
+    quote:
+      "Develop a comprehensive plan outlining your academic journey and goals.",
     profileImageUrl: "/assets/process.svg",
-
-    authorImage: "/assets/learnman.svg",
-    authorName: "Bonnie Green",
-    title: "Branching",
+    authorImage: "/assets/guide.svg",
+    authorName: "Course Counselor",
+    title: "Educational Planning",
   },
   {
-    quote: "Podcasting operational change management  workflow.",
+    quote:
+      "Benefit from decades of experience and expertise in guiding students towards success.",
     profileImageUrl: "/assets/process.svg",
-
-    authorImage: "/assets/learnman.svg",
-    authorName: "Bonnie Green",
-    title: "Company Growth",
+    authorImage: "/assets/expert.svg",
+    authorName: "Experienced Mentor",
+    title: "Guidance & Support",
   },
-
-  // Add more card data as needed
 ];
+
 const ProcessSection = () => {
   return (
     <>
@@ -82,17 +81,18 @@ const ProcessSection = () => {
           <div className="text-black">
             <p
               style={{ letterSpacing: "7px" }}
-              className="text-white uppercase bg-[#4EAF4E] my-4  px-3 rounded-lg w-3/12"
+              className="text-white uppercase bg-[#4EAF4E] my-4  px-3 rounded-lg w-/12"
             >
-              Proccess
+              Course Counseling
             </p>
             <h1 className="text-3xl my-4 font-bold">
-              There have some easy steps to join with us!
+              Guiding You Through Your Educational Journey
             </h1>
             <p className="text-[#595566] my-4 ">
-              Leverage agile frameworks to provide a robust synopsis for high
-              level overviews. Iterative approaches to corporate strategy foster
-              collaborative thinking to further the overall value proposition.
+              Our course counseling process is designed to provide you with
+              clear steps to achieve your educational goals. We'll help you
+              navigate the diverse range of academic options and find the
+              perfect fit for your aspirations.
             </p>
             <hr className="mt-4 border-gray-400 border-t-2"></hr>
             <div className="flex my-4 space-x-8">
@@ -102,10 +102,11 @@ const ProcessSection = () => {
                 </p>
               </div>
               <div>
-                <p className="font-semibold text-xl">Setup Account</p>
+                <p className="font-semibold text-xl">Explore Your Interests</p>
                 <p>
-                  We understand the importance of approaching each work
-                  integrally.
+                  Our first step involves understanding your interests,
+                  strengths, and career aspirations to guide you towards
+                  suitable academic pathways.
                 </p>{" "}
               </div>
             </div>
@@ -117,10 +118,13 @@ const ProcessSection = () => {
                 </p>
               </div>
               <div>
-                <p className="font-semibold text-xl">Setup Account</p>
+                <p className="font-semibold text-xl">
+                  Explore Available Courses
+                </p>
                 <p>
-                  We understand the importance of approaching each work
-                  integrally.
+                  Next, we'll explore the diverse range of courses available to
+                  you, considering factors such as program content, duration,
+                  and career prospects.
                 </p>{" "}
               </div>
             </div>
@@ -132,10 +136,13 @@ const ProcessSection = () => {
                 </p>
               </div>
               <div>
-                <p className="font-semibold text-xl">Setup Account</p>
+                <p className="font-semibold text-xl">
+                  Plan Your Educational Journey
+                </p>
                 <p>
-                  We understand the importance of approaching each work
-                  integrally.
+                  With our guidance, you'll develop a comprehensive plan
+                  outlining your academic path, including course selection,
+                  timeline, and any additional requirements.
                 </p>{" "}
               </div>
             </div>
@@ -147,18 +154,20 @@ const ProcessSection = () => {
               style={{ letterSpacing: "7px" }}
               className="text-black uppercase bg-[#FFCC4A] my-4  px-3 rounded-lg w-10/12"
             >
-              Growing with our clients
+              Partnering for Success
             </p>
-            <h1 className="text-3xl font-bold my-4 ">30 Years of Experience</h1>
+            <h1 className="text-3xl font-bold my-4 ">
+              Experience and Expertise
+            </h1>
             <p className="text-[#595566]">
-              Capitalize on low hanging fruit to identify a ballpark value added
-              activity beta test. Override the digital divide with additional
-              from DevOps.
+              Benefit from our decades of experience in guiding students towards
+              successful educational journeys. We understand the evolving
+              landscape of academia and are committed to helping you thrive.
             </p>
             <p className="text-[#595566] my-2">
-              Leverage agile frameworks to provide a robust synopsis for high
-              level overviews. Iterative approaches to corporate strategy foster
-              collaborative thinking to further the overall value proposition.
+              Our approach integrates agile frameworks to provide you with a
+              clear roadmap for success. We foster collaborative thinking and
+              iterative strategies to ensure your educational goals are met.
             </p>
             <div className="grid grid-cols-1  lg:grid-cols-2 gap-16 mb-8  md:mb-12 ">
               {cardsData.map((card, index) => (
@@ -166,9 +175,6 @@ const ProcessSection = () => {
               ))}
             </div>
           </div>
-          {/* {cardsData.map((card, index) => (
-            <Card key={index} {...card} />
-          ))} */}
         </div>
       </section>
     </>

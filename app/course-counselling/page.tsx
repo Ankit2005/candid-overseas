@@ -12,7 +12,7 @@ const Page = async () => {
     <main className="">
       <Navbar />
       {/* <TransportImage/> */}
-      <Hero />
+      <Hero title="Unlock financial opportunities for your academic journey." />
       <ProcessSection />
       <Gallery />
 

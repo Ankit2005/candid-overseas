@@ -12,7 +12,7 @@ const Page = async () => {
     <main className="">
       <Navbar />
       {/* <TransportImage/> */}
-      <Hero />
+      <Hero title="Guiding Indian Entrepreneurs to Success Abroad" />
       <Process />
       <HowIsWork />
 

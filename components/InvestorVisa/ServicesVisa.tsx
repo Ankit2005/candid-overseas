@@ -1,41 +1,49 @@
 // ServiceCards.tsx
-import React from 'react';
+import React from "react";
 
 const ServicesVisa: React.FC = () => {
   const services = [
     {
-      title: 'Career & Course',
+      title: "Visa Eligibility Assessment",
       description:
-        'As an Abroad Education Consultants, it’s our primary responsibility to help every overseas aspirant and canopy every aspect like career counselling, & Course selection to country of their choice and find best suited course consistent with their profile',
+        "Ensure a smooth start by assessing your eligibility for an investor visa. Our experts analyze your financial portfolio and investment goals, providing insights that pave the way for a successful application.",
     },
     {
-      title: 'University Selection',
+      title: "Customized Investment Plans",
       description:
-        'After finalized course selection for aspirant our next step is to pick appropriate university which might best for your Personal, Academic and Financial parameters. We always take this process very seriously while selecting best universities for you not limited to universities & colleges we represent.',
+        "Based on your unique financial objectives, our consultants craft personalized investment plans. From selecting the right investment avenues to optimizing returns, we guide you towards choices that align with your aspirations.",
     },
     {
-      title: 'Training Services',
+      title: "Documentation Assistance",
       description:
-        'Learn IELTS, PTE, GRE & TOEFL from the simplest of all the time and polish your language. Stamp Visa may be a place which can lookout of all the aspects of IELTS listening speaking reading and writing. The training will burnish your English and can bring ease to your English.',
+        "Our team ensures your documentation is flawless, minimizing the risk of delays or rejections. From financial statements to legal paperwork, we've got you covered.",
     },
     {
-      title: 'Admission Guidance',
+      title: "Ongoing Support",
       description:
-        'After Finalised Course, Country and University selection our next step is to start out your admission process for offer letter within the appropriate University. We assist with every possible support and our specialties will greatly benefit you in preparing your profile positively for admission within the respective University',
+        "Beyond obtaining the visa, our commitment continues. Enjoy ongoing support as you navigate the nuances of international investments. Whether it's adapting to regulatory changes or optimizing your portfolio, we're by your side.",
     },
-    
+
     // Add more services as needed
   ];
 
   return (
     <div className="container mx-auto my-2 md:my-6 p-4">
-      <p  data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
-            data-aos-duration="2000"  className="text-lg text-center text-lightPurple">Services</p>
-      <h4  data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
-            data-aos-duration="2000" className="text-3xl text-center text-secondaryText font-bold mt-2 mb-4">
-        Other Services
+      <p
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+        data-aos-duration="2000"
+        className="text-lg text-center text-lightPurple"
+      >
+        Services
+      </p>
+      <h4
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+        data-aos-duration="2000"
+        className="text-3xl text-center text-secondaryText font-bold mt-2 mb-4"
+      >
+        Candid Investor Visa Consultation Services
       </h4>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {services.map((service, index) => (
@@ -45,16 +53,16 @@ const ServicesVisa: React.FC = () => {
             data-aos-anchor-placement="bottom-bottom"
             data-aos-duration={index * 400}
             className={`p-6 rounded-lg shadow-lg ${
-              (index % 4 === 0 || index % 4 === 3) // Use index % 4 to determine the pattern
-                ? 'bg-lightBlue text-grey-400'
-                : 'bg-mediumRed text-grey-400'
+              index % 4 === 0 || index % 4 === 3 // Use index % 4 to determine the pattern
+                ? "bg-lightBlue text-grey-400"
+                : "bg-mediumRed text-grey-400"
             }`}
           >
             <div
               className={` ${
-                (index % 4 === 0 || index % 4 === 3) // Use index % 4 to determine the pattern
-                  ? 'text-darkBlueNav border-l-4 border-darkBlueNav'
-                  : 'text-redHeading border-l-4 border-redHeading '
+                index % 4 === 0 || index % 4 === 3 // Use index % 4 to determine the pattern
+                  ? "text-darkBlueNav border-l-4 border-darkBlueNav"
+                  : "text-redHeading border-l-4 border-redHeading "
               } pl-2`}
             >
               <h2 className="text-lg font-semibold">{service.title}</h2>

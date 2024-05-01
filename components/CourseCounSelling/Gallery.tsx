@@ -3,7 +3,7 @@ import Image from "next/image";
 const Gallery = () => {
   return (
     <>
-      <section className="bg-white dark:bg-gray-900 py-4 px-2 mx-auto max-w-screen-xl lg:py-16">
+      <section className="bg-white dark:bg-gray-900 py-4 px-2 mx-auto max-w-screen-xl lg:py-10">
         <div>
           <p
             style={{ letterSpacing: "7px" }}
@@ -14,8 +14,7 @@ const Gallery = () => {
         </div>
         <div className="md:flex justify-between">
           <div className="text-black my-2 text-3xl w-3/4">
-            Our client, global analytical techno company, wanted to build
-            market.
+            Exploring Educational Inspiration A Visual Journey
           </div>
           <div>
             <button
@@ -44,7 +43,7 @@ const Gallery = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 shadow-2xl my-5">
           <div className="bg-white rounded-lg overflow-hidden">
             <Image
-              src="/assets/howiswork.svg"
+              src="/assets/gallary_1.jpg"
               className=" rounded-md"
               width={600}
               height={400}
@@ -54,7 +53,7 @@ const Gallery = () => {
 
           <div className="bg-white rounded-lg overflow-hidden">
             <Image
-              src="/assets/howiswork.svg"
+              src="/assets/gallary_2.jpg"
               className=" rounded-md"
               width={600}
               height={400}
@@ -64,37 +63,7 @@ const Gallery = () => {
 
           <div className="bg-white rounded-lg overflow-hidden">
             <Image
-              src="/assets/howiswork.svg"
-              className=" rounded-md"
-              width={600}
-              height={400}
-              alt="candid logo"
-            />
-          </div>
-
-          <div className="bg-white rounded-lg overflow-hidden">
-            <Image
-              src="/assets/howiswork.svg"
-              className=" rounded-md"
-              width={600}
-              height={400}
-              alt="candid logo"
-            />
-          </div>
-
-          <div className="bg-white rounded-lg overflow-hidden">
-            <Image
-              src="/assets/howiswork.svg"
-              className=" rounded-md"
-              width={600}
-              height={400}
-              alt="candid logo"
-            />
-          </div>
-
-          <div className="bg-white rounded-lg overflow-hidden">
-            <Image
-              src="/assets/howiswork.svg"
+              src="/assets/gallary_3.jpg"
               className=" rounded-md"
               width={600}
               height={400}
@@ -107,10 +76,7 @@ const Gallery = () => {
             <p className="text-black text-2xl"> 1128+</p>
             <p className="text-black text-md">Successful Work</p>
           </div>
-          <div className="text-center">
-            <p className="text-black text-2xl"> 908+</p>
-            <p className="text-black text-md">Team member</p>
-          </div>
+
           <div className="text-center">
             <p className="text-black text-2xl"> 258+</p>
             <p className="text-black text-md">Happy Customers</p>

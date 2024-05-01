@@ -11,32 +11,31 @@ interface CardData {
 const cardData: CardData[] = [
   {
     logoUrl: "/assets/bulb.svg",
-    title: "STRATEGY",
-    heading: "Listening:",
+    title: "",
+    heading: "Individualized EPT Preparation Plans",
     description:
-      "Companies bring in consultants when they have problems they can’t solve on challenge.",
+      "Crafted to suit your unique strengths and areas for improvement.",
   },
   {
     logoUrl: "/assets/bulb.svg",
-    title: "ANOTHER TITLE",
-    heading: "Reading:",
-    description:
-      "Companies bring in consultants when they have problems they can’t solve on challenge.",
+    title: "",
+    heading: "Mock Tests and Practice Sessions",
+    description: "Sharpen your skills through simulated EPT experiences.",
   },
   {
     logoUrl: "/assets/bulb.svg",
-    title: "STRATEGY",
-    heading: "Writing:",
+    title: "",
+    heading: "Personalized Feedback",
     description:
-      "Companies bring in consultants when they have problems they can’t solve on challenge.",
+      "Receive insightful assessments to enhance your language proficiency.",
   },
 
   {
     logoUrl: "/assets/bulb.svg",
-    title: "STRATEGY",
-    heading: "Speaking:",
+    title: "",
+    heading: "Tips and Strategies",
     description:
-      "Companies bring in consultants when they have problems they can’t solve on challenge.",
+      "Gain a competitive edge with expert guidance for each section of the EPT.",
   },
 
   // Add more card data as needed
@@ -55,15 +54,7 @@ const GetBenefit: React.FC = () => {
             data-aos-duration="2000"
             className="text-3xl text-secondaryText font-bold mb-4"
           >
-            Get benifits & work{" "}
-          </h1>
-          <h1
-            data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
-            data-aos-duration="2000"
-            className="text-3xl text-secondaryText font-bold mb-4"
-          >
-            about product designer
+            EPT Test Consultation Services
           </h1>
 
           {/* Paragraph */}
@@ -73,10 +64,9 @@ const GetBenefit: React.FC = () => {
             data-aos-duration="2000"
             className="text-grey-300 leading-9"
           >
-            Leverage agile frameworks to provide a robust synopsis for strategy,
-            foster collaborative thinking to further the overall value
-            proposition. Organically grow the holistic world view of disruptive
-            innovation via workplace diversity and empowerment.
+            Maximizing Scores and Confidence through EPT Test Consultation
+            Services. Explore various EPT services offered by Candid - Your
+            partner for the EPT journey.
           </p>
 
           <a
