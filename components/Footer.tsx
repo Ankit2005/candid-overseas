@@ -140,70 +140,56 @@ const Footer = () => {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-2 lg:col-span-2 lg:grid-cols-4">
             <div>
-              <p className="font-medium">Company</p>
+              {/* <p className="font-medium">Company</p> */}
               <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
-                <a className="hover:opacity-75" href="">
+                <a className="hover:opacity-75" href="/">
                   {" "}
-                  About{" "}
+                  Home{" "}
                 </a>
-                <a className="hover:opacity-75" href="">
+                <a className="hover:opacity-75" href="/about-us">
                   {" "}
-                  Meet the Team{" "}
+                  About
                 </a>
-                <a className="hover:opacity-75" href="">
+                <a className="hover:opacity-75" href="/exam">
                   {" "}
-                  History{" "}
+                  Exam
                 </a>
-                <a className="hover:opacity-75" href="">
+                <a className="hover:opacity-75" href="/ept">
                   {" "}
-                  Careers{" "}
+                  E.P.T
                 </a>
-              </nav>
-            </div>
-            <div>
-              <p className="font-medium">Services</p>
-              <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
-                <a className="hover:opacity-75" href="">
-                  {" "}
-                  1on1 Coaching{" "}
-                </a>
-                <a className="hover:opacity-75" href="">
-                  {" "}
-                  Company Review{" "}
-                </a>
-                <a className="hover:opacity-75" href="">
-                  {" "}
-                  Accounts Review{" "}
-                </a>
-                <a className="hover:opacity-75" href="">
-                  {" "}
-                  HR Consulting{" "}
-                </a>
-                <a className="hover:opacity-75" href="">
-                  {" "}
-                  SEO Optimisation{" "}
-                </a>
-              </nav>
-            </div>
-            <div>
-              <p className="font-medium">Helpful Links</p>
-              <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
-                <a className="hover:opacity-75" href="">
+                <a className="hover:opacity-75" href="/#contact-us">
                   {" "}
                   Contact{" "}
                 </a>
-                <a className="hover:opacity-75" href="">
-                  {" "}
-                  FAQs{" "}
-                </a>
-                <a className="hover:opacity-75" href="">
-                  {" "}
-                  Live Chat{" "}
-                </a>
               </nav>
             </div>
             <div>
-              <p className="font-medium">Legal</p>
+              {/* <p className="font-medium">Services</p> */}
+              <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
+                <a className="hover:opacity-75" href="/immigration">
+                  {" "}
+                  Immigration
+                </a>
+                <a className="hover:opacity-75" href="/pte">
+                  {" "}
+                  PTE
+                </a>
+                <a className="hover:opacity-75" href="/permanent-residency">
+                  {" "}
+                  PR
+                </a>
+                <a className="hover:opacity-75" href="/investor-visa">
+                  Investor Visa
+                </a>
+                <a className="hover:opacity-75" href="/business-visa">
+                  Business Visa
+                </a>
+              </nav>
+            </div>
+
+            <div>
+              {/* <p className="font-medium">Legal</p> */}
               <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
                 <a className="hover:opacity-75" href="">
                   {" "}
@@ -213,22 +199,16 @@ const Footer = () => {
                   {" "}
                   Terms &amp; Conditions{" "}
                 </a>
-                <a className="hover:opacity-75" href="">
-                  {" "}
-                  Returns Policy{" "}
-                </a>
-                <a className="hover:opacity-75" href="">
-                  {" "}
-                  Accessibility{" "}
-                </a>
               </nav>
             </div>
           </div>
         </div>
-        <p className="mt-8 text-xs text-white">© 2022 candid overseas</p>
+        <p className="mt-8 text-xs text-white">© 2024 candid overseas</p>
       </div>
     </footer>
   );
 };
 
 export default Footer;
+248;
+9537642005;

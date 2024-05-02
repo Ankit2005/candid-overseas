@@ -3,7 +3,10 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <section className="bg-white dark:bg-gray-900 p-4  mx-auto max-w-screen-xl lg:py-16">
+    <section
+      id="contact-us"
+      className="bg-white dark:bg-gray-900 p-4  mx-auto max-w-screen-xl lg:py-16"
+    >
       <div className="flex gap-10">
         <div
           // data-aos="fade-up"

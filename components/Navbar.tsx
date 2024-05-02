@@ -1,4 +1,5 @@
 "use client";
+import { menues } from "@/lib/constants/constants";
 import Image from "next/image";
 import Link from "next/link";
 // import { useNavigation } from "next/navigation";
@@ -13,13 +14,13 @@ interface CardDetail {
 const cardsDetails: CardDetail[] = [
   {
     icon: "/assets/head-time.svg",
-    title: "Mon - Sat 9.00 - 18.00",
+    title: "Mon - Sat 9.00 AM - 9.00 PM",
     label: "Sunday Closed",
   },
   {
     icon: "/assets/email.svg",
     title: "Email",
-    label: "contact@logistics.com",
+    label: "candidoversea.kadi@gmail.com",
   },
   {
     icon: "/assets/phone.svg",
@@ -142,50 +143,7 @@ const NavbarMain = () => {
   const pathname = usePathname();
   const router: any = useRouter();
   console.log("navigations -->", pathname);
-  const menues = [
-    {
-      title: "Home",
-      link: "/",
-    },
-    {
-      title: "About",
-      link: "/about-us",
-    },
-    {
-      title: "Exam",
-      link: "/exam",
-    },
-    {
-      title: "E.P.T",
-      link: "/ept",
-    },
-    {
-      title: "Immigration",
-      link: "/immigration",
-    },
-    // {
-    //   title: "Contact",
-    //   link: "/contact",
-    // },
 
-    {
-      title: "PTE",
-      link: "/pte",
-    },
-    {
-      title: "PR",
-      link: "/permanent-residency",
-    },
-    {
-      title: "investor Visa",
-      link: "/investor-visa",
-    },
-
-    {
-      title: "Business Visa",
-      link: "/business-visa",
-    },
-  ];
   // const changeRoute = (link: string) => {
   //   router.push(link);
   // };
@@ -248,7 +206,7 @@ const NavbarMain = () => {
         >
           <ul className="flex flex-col text-lg p-4 md:p-0 mt-4 rounded-lg bg-transprent md:flex-row md:space-x-8 md:mt-0 md:border-0 text-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             {/* <div className="h-[50px] bg-red-500 w-full "></div> */}
-            {menues.map((menu, ind) => {
+            {menues.map((menu: any, ind: any) => {
               return (
                 <>
                   {menu.title === "Exam" ? (

@@ -19,7 +19,7 @@ const Page = async () => {
       <CompanyFeatures />
       <CityInfo />
       <ServiceCards />
-      <Team />
+      {/* <Team /> */}
 
       <Footer />
     </main>
